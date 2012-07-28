@@ -1,4 +1,4 @@
 Kolibrie-Mail
 =============
 
-Kolibrie Mail Client for Windows
+Kolibrie Mail Client for Windows based on Sparrow.
