@@ -401,16 +401,22 @@ namespace Kolibrie_Mail
                     //App.Log.Error("Message " + selectedMessage.Uid + " has a BodyStructure, but no View!");
                 }
             }
+
+            // Set the mail to "Seen"
+            var set = SequenceSet.CreateUidSet(selectedMessage.Uid);
+            Imap.Client.Store(set, MessageFlags.Seen, StoreProcedures.Add);
+
+            App.Log.Debug("Message " + selectedMessage.Uid + " set to 'seen'.");
         }
 
         private void DownloadEmail(object param)
         {
+            var oparam = (Collection<Object>)param;
+            var selectedMailbox = (Mailbox)oparam[0];
+            var selectedMessage = (MessageContainer)oparam[1];
+
             try
             {
-                var oparam = (Collection<Object>) param;
-                var selectedMailbox = (Mailbox)oparam[0];
-                var selectedMessage = (MessageContainer)oparam[1];
-
                 var client = AccountController.CreateClientByAccount(AccountController.Account);
                 //var client = Imap.Client;
                 client.Select(selectedMailbox.Name);
@@ -482,7 +488,7 @@ namespace Kolibrie_Mail
             catch (Exception ex)
             {
                 App.Log.Error(ex.Message);
-            } 
+            }
         }
 
         private void UpdateProgressBarSafely(int loaded, int total)
