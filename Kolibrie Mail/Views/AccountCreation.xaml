@@ -9,7 +9,7 @@
         <Label Content="Username:" Height="28" HorizontalAlignment="Left" Margin="12,75,0,0" Name="label2" VerticalAlignment="Top" />
         <xctk:WatermarkTextBox Height="23" Margin="12,109,12,0" Name="txtUsername" VerticalAlignment="Top" TabIndex="1" Text="de.mey.michiel@gmail.com" Watermark="Your username. e.g. John.Apple@apple.com" />
         <Label Content="Password:" Height="28" HorizontalAlignment="Left" Margin="12,138,0,0" Name="label3" VerticalAlignment="Top" />
-        <PasswordBox Height="23" Margin="12,172,12,0" Name="txtPassword" VerticalAlignment="Top" TabIndex="2" Password="Dz8b6NZ92" PasswordChar="■" />
+        <PasswordBox Height="23" Margin="12,172,12,0" Name="txtPassword" VerticalAlignment="Top" TabIndex="2" Password="" PasswordChar="■" />
         <Label Content="Security type:" Height="28" HorizontalAlignment="Left" Margin="12,264,0,0" Name="label4" VerticalAlignment="Top" />
         <ComboBox Height="23" Margin="12,298,12,0" Name="cboSecurity" VerticalAlignment="Top" ItemsSource="{Binding}" SelectedIndex="0" TabIndex="4">
             <ComboBoxItem Content="SSL" />
