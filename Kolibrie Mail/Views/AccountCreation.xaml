@@ -1,0 +1,24 @@
+﻿<Window x:Class="Kolibrie_Mail.Views.AccountCreation"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:k="clr-namespace:Kolibrie_Mail.Model"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit" Title="Add a new account" Height="412" Width="366" MinHeight="340" WindowStartupLocation="CenterScreen">
+    
+    <Grid>     
+        <Label Content="Account name:" Height="28" HorizontalAlignment="Left" Margin="12,12,0,0" Name="label1" VerticalAlignment="Top" />
+        <xctk:WatermarkTextBox Height="23" Margin="12,46,12,0" Name="txtAccountName" VerticalAlignment="Top" TabIndex="0" Text="Gmail" Watermark="The account name. e.g. John's Email" />
+        <Label Content="Username:" Height="28" HorizontalAlignment="Left" Margin="12,75,0,0" Name="label2" VerticalAlignment="Top" />
+        <xctk:WatermarkTextBox Height="23" Margin="12,109,12,0" Name="txtUsername" VerticalAlignment="Top" TabIndex="1" Text="de.mey.michiel@gmail.com" Watermark="Your username. e.g. John.Apple@apple.com" />
+        <Label Content="Password:" Height="28" HorizontalAlignment="Left" Margin="12,138,0,0" Name="label3" VerticalAlignment="Top" />
+        <PasswordBox Height="23" Margin="12,172,12,0" Name="txtPassword" VerticalAlignment="Top" TabIndex="2" Password="Dz8b6NZ92" PasswordChar="■" />
+        <Label Content="Security type:" Height="28" HorizontalAlignment="Left" Margin="12,264,0,0" Name="label4" VerticalAlignment="Top" />
+        <ComboBox Height="23" Margin="12,298,12,0" Name="cboSecurity" VerticalAlignment="Top" ItemsSource="{Binding}" SelectedIndex="0" TabIndex="4">
+            <ComboBoxItem Content="SSL" />
+            <ComboBoxItem Content="TLS" />
+            <ComboBoxItem Content="None" />
+        </ComboBox>
+        <Button Content="Create" Height="23" HorizontalAlignment="Right" Margin="0,0,93,12" Name="btnCreate" VerticalAlignment="Bottom" Width="75" IsDefault="True" Click="btnCreate_Click" />
+        <Button Content="Cancel" Margin="0,0,12,12" Name="btnCancel" Height="23" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="75" IsCancel="True" Click="btnCancel_Click" />
+        <Label Content="Host:" Height="28" HorizontalAlignment="Left" Margin="12,201,0,0" Name="label5" VerticalAlignment="Top" />
+        <xctk:WatermarkTextBox Height="23" Margin="12,235,12,0" Name="txtHost" VerticalAlignment="Top" TabIndex="3" Text="imap.gmail.com" Watermark="The email server you would like to connect to." />
+    </Grid>
+</Window>

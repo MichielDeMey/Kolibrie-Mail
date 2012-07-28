@@ -1,0 +1,601 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/d:Protocols/f:gmailAuthenticator.cs" caret="2594" fromTop="55" />
+      <File id="34D203DA-5446-43FE-A1B6-E7B6A1B0F14E/f:ViewInfo.cs" caret="3172" fromTop="9" />
+      <File id="34D203DA-5446-43FE-A1B6-E7B6A1B0F14E/f:MessageInfo.cs" caret="3521" fromTop="21" />
+      <File id="34D203DA-5446-43FE-A1B6-E7B6A1B0F14E/f:IFetchable.cs" caret="2969" fromTop="4" />
+      <File id="F711C36B-0DBC-4FB0-9F54-47C09C206E8F/f:HeaderField.cs" caret="7478" fromTop="21" />
+      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/d:Views/f:AccountCreation.xaml" caret="1256" fromTop="11" />
+      <File id="34D203DA-5446-43FE-A1B6-E7B6A1B0F14E/d:Processing/f:DynamicSectionReader.cs" caret="4847" fromTop="29" />
+      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/d:Converter/f:MessageInfoConverter.cs" caret="1014" fromTop="28" />
+      <File id="EA165485-7BE1-41BF-9F1F-A595C94CD87D/d:Security/f:SecureClient.cs" caret="6582" fromTop="21" />
+      <File id="EA165485-7BE1-41BF-9F1F-A595C94CD87D/f:EmailAddress.cs" caret="3677" fromTop="28" />
+      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/d:Controller/f:ImapController.cs" caret="0" fromTop="0" />
+      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/d:Controller/f:MailController.cs" caret="187" fromTop="7" />
+      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/d:Protocols/f:Imap.cs" caret="0" fromTop="0" />
+      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/d:Controller/f:AccountController.cs" caret="932" fromTop="23" />
+      <File id="34D203DA-5446-43FE-A1B6-E7B6A1B0F14E/d:Linq/f:ImapFetchQueryTranslator.cs" caret="8108" fromTop="19" />
+      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/f:app.config" caret="721" fromTop="0" />
+      <File id="34D203DA-5446-43FE-A1B6-E7B6A1B0F14E/f:IMessageQueryable.cs" caret="5536" fromTop="46" />
+      <File id="EA165485-7BE1-41BF-9F1F-A595C94CD87D/f:EmailContact.cs" caret="3210" fromTop="11" />
+      <File id="34D203DA-5446-43FE-A1B6-E7B6A1B0F14E/f:Envelope.cs" caret="3196" fromTop="13" />
+      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/d:Converter/f:RelativeDateTimeConverter.cs" caret="357" fromTop="4" />
+      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/f:App.xaml.cs" caret="804" fromTop="24" />
+      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/d:Model/f:MessageContainer.cs" caret="721" fromTop="15" />
+      <File id="34D203DA-5446-43FE-A1B6-E7B6A1B0F14E/d:Linq/f:ImapQueryResponseReader.cs" caret="5683" fromTop="29" />
+      <File id="34D203DA-5446-43FE-A1B6-E7B6A1B0F14E/d:Linq/f:ImapMessageQueryProvider.cs" caret="5657" fromTop="28" />
+      <File id="34D203DA-5446-43FE-A1B6-E7B6A1B0F14E/d:Linq/f:Query.cs" caret="4699" fromTop="21" />
+      <File id="34D203DA-5446-43FE-A1B6-E7B6A1B0F14E/d:Linq/f:QueryProvider.cs" caret="4103" fromTop="21" />
+      <File id="34D203DA-5446-43FE-A1B6-E7B6A1B0F14E/f:ImapClient.cs" caret="45263" fromTop="20" />
+      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/f:MainWindow.xaml" caret="11838" fromTop="10" />
+      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/f:MainWindow.xaml.cs" caret="16810" fromTop="11" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="34D203DA-5446-43FE-A1B6-E7B6A1B0F14E/f:ImapClient.cs" caret="43902" fromTop="15" />
+      <File id="34D203DA-5446-43FE-A1B6-E7B6A1B0F14E/f:ImapClient.cs" caret="44852" fromTop="35" />
+      <File id="34D203DA-5446-43FE-A1B6-E7B6A1B0F14E/f:ImapClient.cs" caret="45776" fromTop="34" />
+      <File id="34D203DA-5446-43FE-A1B6-E7B6A1B0F14E/f:ImapClient.cs" caret="46708" fromTop="40" />
+      <File id="34D203DA-5446-43FE-A1B6-E7B6A1B0F14E/f:ImapClient.cs" caret="46164" fromTop="21" />
+      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/f:MainWindow.xaml.cs" caret="18512" fromTop="30" />
+      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/f:MainWindow.xaml.cs" caret="17765" fromTop="22" />
+      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/f:MainWindow.xaml.cs" caret="18071" fromTop="32" />
+      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/f:MainWindow.xaml.cs" caret="17090" fromTop="14" />
+      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/f:MainWindow.xaml" caret="13051" fromTop="14" />
+      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/d:Model/f:MessageContainer.cs" caret="721" fromTop="15" />
+      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/d:Converter/f:RelativeDateTimeConverter.cs" caret="97" fromTop="3" />
+      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/d:Converter/f:RelativeDateTimeConverter.cs" caret="1317" fromTop="28" />
+      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/d:Converter/f:RelativeDateTimeConverter.cs" caret="1848" fromTop="32" />
+      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/f:MainWindow.xaml" caret="644" fromTop="11" />
+      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/d:Converter/f:RelativeDateTimeConverter.cs" caret="219" fromTop="7" />
+      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/d:Converter/f:RelativeDateTimeConverter.cs" caret="357" fromTop="12" />
+      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/f:MainWindow.xaml" caret="11924" fromTop="28" />
+      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/f:MainWindow.xaml" caret="9890" fromTop="24" />
+      <File id="34D203DA-5446-43FE-A1B6-E7B6A1B0F14E/f:ImapClient.cs" caret="44571" fromTop="29" />
+      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/f:MainWindow.xaml" caret="9813" fromTop="20" />
+      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/f:MainWindow.xaml" caret="9194" fromTop="4" />
+      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/f:MainWindow.xaml" caret="224" fromTop="3" />
+      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/f:MainWindow.xaml" caret="11438" fromTop="29" />
+      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/f:MainWindow.xaml" caret="10749" fromTop="16" />
+      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/f:MainWindow.xaml.cs" caret="12337" fromTop="20" />
+      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/f:MainWindow.xaml.cs" caret="3543" fromTop="15" />
+      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/f:MainWindow.xaml.cs" caret="17303" fromTop="22" />
+      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/f:MainWindow.xaml.cs" caret="16855" fromTop="12" />
+      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/f:MainWindow.xaml.cs" caret="17452" fromTop="26" />
+    </RecentEdits>
+  </RecentFiles>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="client" priority="575" />
+      <Item value="Console`0" priority="607" />
+      <Item value="new" priority="1248" />
+      <Item value="ImapCommand" priority="86" />
+      <Item value="ImapCommand`0" priority="31" />
+      <Item value="SaslMechanics`0" priority="95" />
+      <Item value="foreach" priority="511" />
+      <Item value="inboxlist" priority="63" />
+      <Item value="mailbox" priority="354" />
+      <Item value="if" priority="1023" />
+      <Item value="CreateClientByAccount`0" priority="63" />
+      <Item value="Account" priority="342" />
+      <Item value="var" priority="1631" />
+      <Item value="acct" priority="287" />
+      <Item value="Explicit" priority="16" />
+      <Item value="this" priority="191" />
+      <Item value="ConsoleTraceListener`0" priority="31" />
+      <Item value="account" priority="63" />
+      <Item value="xlistresponse" priority="63" />
+      <Item value="mailboxes" priority="159" />
+      <Item value="ThreadStaticAttribute`0" priority="31" />
+      <Item value="Thread`0" priority="191" />
+      <Item value="SecureString" priority="28" />
+      <Item value="pass" priority="31" />
+      <Item value="public" priority="479" />
+      <Item value="void" priority="255" />
+      <Item value="Account`0" priority="90" />
+      <Item value="query" priority="159" />
+      <Item value="VisualXSnappingGuidelines" priority="31" />
+      <Item value="envelope" priority="255" />
+      <Item value="Top" priority="31" />
+      <Item value="Uid" priority="64" />
+      <Item value="x" priority="454" />
+      <Item value="messageFlag" priority="31" />
+      <Item value="Seen" priority="16" />
+      <Item value="FlagsAttribute`0" priority="31" />
+      <Item value="MessageFlags`0" priority="31" />
+      <Item value="MessageBox`0" priority="31" />
+      <Item value="static" priority="159" />
+      <Item value="Model" priority="31" />
+      <Item value="Imap`0" priority="639" />
+      <Item value="Client" priority="95" />
+      <Item value="ImapClient`0" priority="63" />
+      <Item value="ClientIdle" priority="31" />
+      <Item value="AccountController`0" priority="223" />
+      <Item value="Thread" priority="174" />
+      <Item value="ImapIdle" priority="28" />
+      <Item value="ThreadStart" priority="57" />
+      <Item value="Main`0" priority="31" />
+      <Item value="idle" priority="63" />
+      <Item value="ImapController`0" priority="63" />
+      <Item value="wbMailRender" priority="95" />
+      <Item value="Properties" priority="621" />
+      <Item value="Kolibrie_Mail" priority="319" />
+      <Item value="Settings`0" priority="458" />
+      <Item value="SettingsProperty" priority="28" />
+      <Item value="List" priority="90" />
+      <Item value="Settings" priority="95" />
+      <Item value="Accounts`0" priority="140" />
+      <Item value="LineStackingStrategy" priority="28" />
+      <Item value="Accounts" priority="58" />
+      <Item value="null" priority="159" />
+      <Item value="AcctCreation" priority="127" />
+      <Item value="DialogResult" priority="63" />
+      <Item value="false" priority="31" />
+      <Item value="return" priority="479" />
+      <Item value="DataContext" priority="31" />
+      <Item value="txtAccountName" priority="31" />
+      <Item value="txtUsername" priority="31" />
+      <Item value="txtPassword" priority="31" />
+      <Item value="txtHost" priority="31" />
+      <Item value="true" priority="63" />
+      <Item value="Close`0" priority="95" />
+      <Item value="cboSecurity" priority="63" />
+      <Item value="else" priority="543" />
+      <Item value="Shutdown`0" priority="31" />
+      <Item value="NetworkCredential" priority="28" />
+      <Item value="MainWindow`0" priority="58" />
+      <Item value="MainWindow" priority="150" />
+      <Item value="main" priority="127" />
+      <Item value="acctCreation" priority="31" />
+      <Item value="base" priority="31" />
+      <Item value="Application`0" priority="31" />
+      <Item value="List&lt;Account&gt;" priority="28" />
+      <Item value="String`0" priority="95" />
+      <Item value="lstMailboxes" priority="287" />
+      <Item value="selectedMailbox" priority="444" />
+      <Item value="try" priority="159" />
+      <Item value="App`0" priority="799" />
+      <Item value="lstEnvelopes" priority="634" />
+      <Item value="unreadMessages" priority="63" />
+      <Item value="unreadMessage" priority="31" />
+      <Item value="Envelope`0" priority="31" />
+      <Item value="unreadCollection" priority="127" />
+      <Item value="unreadEnvelope" priority="95" />
+      <Item value="unreadMessagesQuery" priority="63" />
+      <Item value="Envelope" priority="64" />
+      <Item value="Mailbox" priority="197" />
+      <Item value="Message" priority="32" />
+      <Item value="Size`0" priority="31" />
+      <Item value="Size" priority="65" />
+      <Item value="MessageContainer`0" priority="481" />
+      <Item value="From" priority="31" />
+      <Item value="Subject" priority="31" />
+      <Item value="Date" priority="31" />
+      <Item value="BodyStructure" priority="127" />
+      <Item value="string" priority="416" />
+      <Item value="ViewInfo`0" priority="31" />
+      <Item value="IEnumerable" priority="123" />
+      <Item value="View`0" priority="95" />
+      <Item value="value" priority="127" />
+      <Item value="viewinfo" priority="287" />
+      <Item value="MessageInfo`0" priority="32" />
+      <Item value="view" priority="95" />
+      <Item value="FetchMessageAsync`0" priority="31" />
+      <Item value="selectedMessage" priority="832" />
+      <Item value="Select`0" priority="26" />
+      <Item value="mb" priority="63" />
+      <Item value="bs" priority="31" />
+      <Item value="Mailbox`0" priority="194" />
+      <Item value="values" priority="31" />
+      <Item value="parameter" priority="31" />
+      <Item value="ex" priority="63" />
+      <Item value="throw" priority="31" />
+      <Item value="wbMailRenderer" priority="415" />
+      <Item value="message" priority="288" />
+      <Item value="bodyStructure" priority="63" />
+      <Item value="HTML" priority="31" />
+      <Item value="html" priority="223" />
+      <Item value="private" priority="191" />
+      <Item value="RenderHTMLEmail`0" priority="31" />
+      <Item value="RenderHtmlEmail`0" priority="96" />
+      <Item value="ThreadPriority`0" priority="31" />
+      <Item value="downloadMessageThread" priority="122" />
+      <Item value="ThreadStart`0" priority="31" />
+      <Item value="downloadEmail`0" priority="98" />
+      <Item value="thread_downloadMessage" priority="127" />
+      <Item value="Object`0" priority="31" />
+      <Item value="param" priority="223" />
+      <Item value="ParameterizedThreadStart`0" priority="31" />
+      <Item value="ParameterizedThreadStart" priority="28" />
+      <Item value="Collection" priority="65" />
+      <Item value="oparam" priority="31" />
+      <Item value="sender" priority="31" />
+      <Item value="e" priority="95" />
+      <Item value="delegate" priority="63" />
+      <Item value="int" priority="127" />
+      <Item value="UpdateProgressBarSafely`0" priority="31" />
+      <Item value="loaded" priority="31" />
+      <Item value="GetMessages`0" priority="63" />
+      <Item value="readonly" priority="63" />
+      <Item value="EmbeddableDocumentStore" priority="57" />
+      <Item value="ConnectionStringName" priority="31" />
+      <Item value="DocumentStore" priority="223" />
+      <Item value="ContextMenu" priority="28" />
+      <Item value="using" priority="95" />
+      <Item value="messages" priority="95" />
+      <Item value="session" priority="447" />
+      <Item value="messageContainer" priority="828" />
+      <Item value="Activate`0" priority="31" />
+      <Item value="Log" priority="31" />
+      <Item value="messageCollection" priority="95" />
+      <Item value="MessageContainer" priority="29" />
+      <Item value="continue" priority="63" />
+      <Item value="as" priority="31" />
+      <Item value="container" priority="96" />
+      <Item value="messagesQuery" priority="96" />
+      <Item value="msg" priority="63" />
+      <Item value="_address" priority="31" />
+      <Item value="viewinfo_plain" priority="31" />
+      <Item value="viewinfoPlain" priority="31" />
+      <Item value="plain" priority="95" />
+      <Item value="RenderHtmlEmailSafely`0" priority="31" />
+      <Item value="loadedMessageContainer" priority="122" />
+      <Item value="Loaded" priority="31" />
+      <Item value="GetHashCode`0" priority="31" />
+      <Item value="_lastUid" priority="95" />
+      <Item value="MailController`0" priority="255" />
+      <Item value="databaseMessages" priority="58" />
+      <Item value="indexRange" priority="159" />
+      <Item value="UpdateEnvelopesSafely`0" priority="64" />
+      <Item value="UpdateEnvelopesDelegate" priority="26" />
+      <Item value="AddEnvelopesSafely`0" priority="95" />
+      <Item value="AddMessagesOneByOne`0" priority="31" />
+      <Item value="AddEnvelopeDelegate" priority="53" />
+      <Item value="AddEnvelopeSafely`0" priority="96" />
+      <Item value="for" priority="63" />
+      <Item value="i" priority="31" />
+      <Item value="text" priority="31" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Crystalbyte.Equinox.Imap.ImapClient">
+      <Item value="List`0" priority="216" />
+      <Item value="SendAndReceive`0" priority="53" />
+      <Item value="IsAuthenticated" priority="53" />
+      <Item value="Select`0" priority="243" />
+      <Item value="FetchView`0" priority="108" />
+      <Item value="FetchMessageByUid`0" priority="81" />
+      <Item value="SelectedMailbox" priority="137" />
+      <Item value="FetchMessageBySequenceNumber`0" priority="22" />
+      <Item value="Search`0" priority="27" />
+      <Item value="FetchView2`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Console">
+      <Item value="Write`0" priority="54" />
+      <Item value="WriteLine`0" priority="594" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Crystalbyte.Equinox.Security.Authentication.SaslMechanics">
+      <Item value="Plain" priority="53" />
+      <Item value="Login" priority="81" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Crystalbyte.Equinox.Imap.Responses.ListImapResponse">
+      <Item value="Mailboxes" priority="188" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Kolibrie_Mail.Account">
+      <Item value="Credential" priority="53" />
+      <Item value="Host" priority="26" />
+      <Item value="Name" priority="26" />
+      <Item value="Security" priority="26" />
+      <Item value="XOAuthKey" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Kolibrie_Mail.OAuthVerificationForm">
+      <Item value="Dispose`0" priority="53" />
+      <Item value="Close`0" priority="54" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Crystalbyte.Equinox.Imap.ImapResponseReader">
+      <Item value="ReadToEnd`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="Count`1" priority="134" />
+      <Item value="First`1" priority="26" />
+      <Item value="ToList`1" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Threading.Thread">
+      <Item value="Sleep`0" priority="188" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Crystalbyte.Equinox.Imap.Mailbox">
+      <Item value="Name" priority="215" />
+      <Item value="Attributes" priority="26" />
+      <Item value="Keywords" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Crystalbyte.Equinox.Imap.IMessageQueryable">
+      <Item value="Envelope" priority="135" />
+      <Item value="Uid" priority="194" />
+      <Item value="IsNew" priority="27" />
+      <Item value="Flags" priority="108" />
+      <Item value="Headers" priority="27" />
+      <Item value="Size" priority="84" />
+      <Item value="Text" priority="55" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Crystalbyte.Equinox.Imap.Envelope">
+      <Item value="From" priority="26" />
+      <Item value="Subject" priority="80" />
+      <Item value="Sender" priority="26" />
+      <Item value="Date" priority="22" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IQueryable`1">
+      <Item value="Take`1" priority="26" />
+      <Item value="OrderByDescending`2" priority="80" />
+      <Item value="Max`1" priority="53" />
+      <Item value="Count`1" priority="53" />
+      <Item value="AsEnumerable`1" priority="53" />
+      <Item value="ToList`1" priority="134" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Crystalbyte.Equinox.MessageFlags">
+      <Item value="HasFlag`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Crystalbyte.Equinox.MessageFlags">
+      <Item value="Seen" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.MessageBox">
+      <Item value="Show`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Kolibrie_Mail.Controllers.AccountController">
+      <Item value="Account" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Kolibrie_Mail.Controller.AccountController">
+      <Item value="Account" priority="134" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Threading.Thread">
+      <Item value="Start`0" priority="215" />
+      <Item value="Name" priority="26" />
+      <Item value="Abort`0" priority="53" />
+      <Item value="IsAlive" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Kolibrie_Mail.Controller.ImapController">
+      <Item value="IdleThread" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.WebBrowser">
+      <Item value="Navigate`0" priority="26" />
+      <Item value="NavigateToString`0" priority="162" />
+      <Item value="Dispatcher" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Kolibrie_Mail.providers.Imap">
+      <Item value="Client" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Kolibrie_Mail.Properties.Settings">
+      <Item value="Default" priority="485" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Kolibrie_Mail.Properties.Settings">
+      <Item value="Properties" priority="80" />
+      <Item value="Accounts" priority="324" />
+      <Item value="Save`0" priority="80" />
+      <Item value="LastUid" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Configuration.SettingsPropertyCollection">
+      <Item value="Add`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Kolibrie_Mail.Settings.Accounts">
+      <Item value="Enumerator`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Kolibrie_Mail.Settings.Accounts">
+      <Item value="Add`0" priority="80" />
+      <Item value="Count" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Kolibrie_Mail.Views.AccountCreation">
+      <Item value="ShowDialog`0" priority="26" />
+      <Item value="Account" priority="26" />
+      <Item value="Close`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Kolibrie_Mail.Model.Account">
+      <Item value="Name" priority="26" />
+      <Item value="Credential" priority="81" />
+      <Item value="Host" priority="26" />
+      <Item value="Security" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.TextBox">
+      <Item value="Template" priority="26" />
+      <Item value="Text" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.NetworkCredential">
+      <Item value="UserName" priority="26" />
+      <Item value="Password" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.PasswordBox">
+      <Item value="Password" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Kolibrie_Mail.MainWindow">
+      <Item value="Show`0" priority="53" />
+      <Item value="Close`0" priority="26" />
+      <Item value="RenderHtmlEmailSafely`0" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Application">
+      <Item value="OnStartup`0" priority="26" />
+      <Item value="Shutdown`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="XamlCodeCompletionContext">
+      <Item value="MainWindow.xaml" priority="5" />
+      <Item value="BorderBrush" priority="5" />
+      <Item value="Medium" priority="5" />
+      <Item value="WrapWithOverflow" priority="11" />
+      <Item value="ControlBrushKey" priority="5" />
+      <Item value="visualFx" priority="5" />
+      <Item value="Auto" priority="5" />
+      <Item value="Disabled" priority="5" />
+      <Item value="Stretch" priority="5" />
+      <Item value="StylusEnter" priority="5" />
+      <Item value="HorizontalAlignment" priority="5" />
+      <Item value="Right" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Application">
+      <Item value="Current" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="IsNullOrWhiteSpace`0" priority="134" />
+      <Item value="Empty" priority="134" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.ListBox">
+      <Item value="ItemsSource" priority="216" />
+      <Item value="SelectedItem" priority="234" />
+      <Item value="SelectedValue" priority="22" />
+      <Item value="SelectedIndex" priority="157" />
+      <Item value="Items" priority="188" />
+      <Item value="Dispatcher" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString`0" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Kolibrie_Mail.App">
+      <Item value="Log" priority="593" />
+      <Item value="DocumentStore" priority="107" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:log4net.ILog">
+      <Item value="Info`0" priority="377" />
+      <Item value="Error`0" priority="107" />
+      <Item value="Debug`0" priority="134" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.IEnumerable">
+      <Item value="AsQueryable`0" priority="53" />
+      <Item value="AsParallel`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.ObjectModel.Collection`1">
+      <Item value="Add`0" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Crystalbyte.Equinox.EmailContact">
+      <Item value="Name" priority="27" />
+      <Item value="Address" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Crystalbyte.Equinox.EmailAddress">
+      <Item value="FullAddress" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Crystalbyte.Equinox.Imap.MessageInfo">
+      <Item value="Views" priority="53" />
+      <Item value="Envelope" priority="26" />
+      <Item value="SequenceNumber" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Kolibrie_Mail.Protocols.Imap">
+      <Item value="Client" priority="514" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Crystalbyte.Equinox.View">
+      <Item value="Text" priority="377" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="FirstOrDefault`1" priority="130" />
+      <Item value="Reverse`0" priority="80" />
+      <Item value="Add`0" priority="53" />
+      <Item value="ElementAtOrDefault`1" priority="26" />
+      <Item value="AddRange`0" priority="26" />
+      <Item value="Remove`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Substring`0" priority="53" />
+      <Item value="Length" priority="26" />
+      <Item value="Equals`0" priority="26" />
+      <Item value="Replace`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="Subtract`0" priority="27" />
+      <Item value="ToString`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Exception">
+      <Item value="Message" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Kolibrie_Mail.Model.MessageContainer">
+      <Item value="Uid" priority="649" />
+      <Item value="BodyStructure" priority="80" />
+      <Item value="HtmlView" priority="215" />
+      <Item value="PlainView" priority="55" />
+      <Item value="Mailbox" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Crystalbyte.Equinox.Message">
+      <Item value="HasHtmlView" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Awesomium.Windows.Controls.WebControl">
+      <Item value="LoadHTML`0" priority="107" />
+      <Item value="Stop`0" priority="26" />
+      <Item value="Dispatcher" priority="53" />
+      <Item value="ContextMenu" priority="26" />
+      <Item value="CacheMode" priority="26" />
+      <Item value="ResetZoom`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Threading.Dispatcher">
+      <Item value="BeginInvoke`0" priority="53" />
+      <Item value="CheckAccess`0" priority="81" />
+      <Item value="Invoke`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Threading.ThreadPriority">
+      <Item value="Normal" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Awesomium.Core.OpenExternalLinkEventArgs">
+      <Item value="Url" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Awesomium.Core.BeginNavigationEventArgs">
+      <Item value="Url" priority="26" />
+      <Item value="FrameName" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.ItemCollection">
+      <Item value="Clear`0" priority="53" />
+      <Item value="Count" priority="134" />
+      <Item value="Add`0" priority="26" />
+      <Item value="Insert`0" priority="54" />
+      <Item value="RemoveAt`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Raven.Client.Embedded.EmbeddableDocumentStore">
+      <Item value="ConnectionStringName" priority="26" />
+      <Item value="OpenSession`0" priority="80" />
+      <Item value="Initialize`0" priority="26" />
+      <Item value="UseEmbeddedHttpServer" priority="26" />
+      <Item value="HttpServer" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Raven.Client.IDocumentSession">
+      <Item value="Store`0" priority="81" />
+      <Item value="SaveChanges`0" priority="80" />
+      <Item value="Advanced" priority="108" />
+      <Item value="Load`1" priority="162" />
+      <Item value="Query`1" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Raven.Database.Server.HttpServer">
+      <Item value="Configuration" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Raven.Client.ISyncAdvancedSessionOperation">
+      <Item value="GetDocumentId`0" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString`0" priority="269" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Kolibrie_Mail.Controller.MailController">
+      <Item value="LastUid" priority="215" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Raven.Client.Linq.IRavenQueryable`1">
+      <Item value="ToList`1" priority="53" />
+      <Item value="Take`1" priority="27" />
+      <Item value="Where`1" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IOrderedQueryable`1">
+      <Item value="ToArray`1" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Crystalbyte.Equinox.Imap.ViewInfo">
+      <Item value="Token" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Nullable`1">
+      <Item value="Value" priority="26" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">True</setting>
+    </boolean>
+  </SettingsComponent>
+</Configuration>

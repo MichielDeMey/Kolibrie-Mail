@@ -1,0 +1,172 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Awesomium.Windows.Forms</name>
+    </assembly>
+    <members>
+        <member name="T:Awesomium.Windows.Forms.ImageSurface">
+            <summary>
+            Represents an <see cref="T:Awesomium.Core.ISurface"/> that renders the pixel buffer of a <see cref="T:Awesomium.Core.WebView"/>,
+            to an <see cref="P:Awesomium.Windows.Forms.ImageSurface.Image"/>. You can then draw this image to a <see cref="T:System.Windows.Forms.Control"/>,
+            or assign it to a <see cref="T:System.Windows.Forms.PictureBox"/>.
+            </summary>
+            <remarks>
+            You can create and return an instance of this class, when <see cref="E:Awesomium.Core.IWebView.CreateSurface"/> is
+            being called. Usually, you can cache and return the same <see cref="T:Awesomium.Windows.Forms.ImageSurface"/> instance
+            on multiple <see cref="E:Awesomium.Core.IWebView.CreateSurface"/> calls. The <see cref="T:Awesomium.Windows.Forms.ImageSurface"/> takes
+            care of updating the <see cref="P:Awesomium.Windows.Forms.ImageSurface.Image"/> to reflect the new surface size.
+            <p/>
+            <note>
+            If you intend to draw the <see cref="P:Awesomium.Windows.Forms.ImageSurface.Image"/> to a <see cref="T:System.Windows.Forms.Control"/>,
+            make sure <see cref="P:System.Windows.Forms.Control.DoubleBuffered"/> is set to <c>true</c>,
+            to prevent flickering.
+            </note>
+            <p/>
+            <note type="caution">
+            Once assigned to a view and initialized, a surface can only be used
+            with that single view.
+            </note>
+            <p/>
+            When you are done with using an instance of this class, dispose it to release resources.
+            </remarks>
+        </member>
+        <member name="P:Awesomium.Windows.Forms.ImageSurface.Image">
+            <summary>
+            Gets the <see cref="P:Awesomium.Windows.Forms.ImageSurface.Image"/> where the pixel buffer of a <see cref="T:Awesomium.Core.WebView"/>
+            is being rendered.
+            </summary>
+        </member>
+        <member name="M:Awesomium.Windows.Forms.GdiAPI.CreateCompatibleDC(System.IntPtr)">
+            <summary>
+            CreateCompatibleDC
+            </summary>
+        </member>
+        <member name="M:Awesomium.Windows.Forms.GdiAPI.DeleteDC(System.IntPtr)">
+            <summary>
+            DeleteDC
+            </summary>
+        </member>
+        <member name="M:Awesomium.Windows.Forms.GdiAPI.SelectObject(System.IntPtr,System.IntPtr)">
+            <summary>
+            SelectObject
+            </summary>
+        </member>
+        <member name="M:Awesomium.Windows.Forms.GdiAPI.DeleteObject(System.Runtime.InteropServices.HandleRef)">
+            <summary>
+            DeleteObject
+            </summary>
+        </member>
+        <member name="M:Awesomium.Windows.Forms.GdiAPI.CreateCompatibleBitmap(System.IntPtr,System.Int32,System.Int32)">
+            <summary>
+            CreateCompatibleBitmap
+            </summary>
+        </member>
+        <member name="M:Awesomium.Windows.Forms.GdiAPI.BitBlt(System.IntPtr,System.Int32,System.Int32,System.Int32,System.Int32,System.IntPtr,System.Int32,System.Int32,Awesomium.Windows.Forms.GdiAPI.TernaryRasterOperations)">
+            <summary>
+            BitBlt
+            </summary>
+        </member>
+        <member name="T:Awesomium.Windows.Forms.GdiAPI.TernaryRasterOperations">
+            <summary>
+            Enumeration for the raster operations used in BitBlt.
+            In C++ these are actually #define. But to use these
+            constants with C#, a new enumeration type is defined.
+            </summary>
+        </member>
+        <member name="T:Awesomium.Windows.Forms.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Awesomium.Windows.Forms.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Awesomium.Windows.Forms.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="T:Awesomium.Windows.Forms.Utilities">
+            <summary>
+            Utility class providing helper methods that can be used by Windows Forms applications.
+            </summary>
+        </member>
+        <member name="M:Awesomium.Windows.Forms.Utilities.GetCursor(Awesomium.Core.CursorType)">
+            <summary>
+            Gets the Windows Forms <see cref="T:System.Windows.Forms.Cursor"/> equivalent of an Awesomium <see cref="T:Awesomium.Core.CursorType"/>.
+            </summary>
+            <param name="cursor">
+            The Awesomium cursor type. You can get this by handling the <see cref="E:Awesomium.Core.WebView.CursorChanged"/> event.
+            </param>
+            <returns>
+            A Windows Forms <see cref="T:System.Windows.Forms.Cursor"/>, or null (Nothing in VB) if <see cref="F:Awesomium.Core.CursorType.None"/>
+            is specified.
+            </returns>
+        </member>
+        <member name="M:Awesomium.Windows.Forms.Utilities.GetCursor(Awesomium.Core.CursorChangedEventArgs)">
+            <summary>
+            Gets the Windows Forms <see cref="T:System.Windows.Forms.Cursor"/> equivalent of an Awesomium <see cref="T:Awesomium.Core.CursorType"/>.
+            </summary>
+            <param name="e">
+            The data provided to <see cref="E:Awesomium.Core.WebView.CursorChanged"/> event handler.
+            </param>
+            <returns>
+            A Windows Forms <see cref="T:System.Windows.Forms.Cursor"/>, or null (Nothing in VB) if <see cref="F:Awesomium.Core.CursorType.None"/>
+            is specified.
+            </returns>
+        </member>
+        <member name="M:Awesomium.Windows.Forms.Utilities.GetKeyboardEvent(System.Windows.Forms.KeyEventArgs,Awesomium.Core.WebKeyboardEventType)">
+            <summary>
+            Gets an Awesomium <see cref="T:Awesomium.Core.WebKeyboardEvent"/> equivalent of a Windows Forms key-down or key-up event.
+            </summary>
+            <param name="e">
+            The Windows Forms key-down or key-up event arguments.
+            </param>
+            <param name="eventType">
+            Indicates if this is a key-down or key-up event.
+            </param>
+            <returns>
+            An instance of a <see cref="T:Awesomium.Core.WebKeyboardEvent"/> representing the Awesomium equivalent of a
+            Windows Forms key-down or key-up event.
+            </returns>
+        </member>
+        <member name="M:Awesomium.Windows.Forms.Utilities.GetKeyboardEvent(System.Windows.Forms.KeyPressEventArgs)">
+            <summary>
+            Gets an Awesomium <see cref="T:Awesomium.Core.WebKeyboardEvent"/> equivalent of a Windows Forms key-press event.
+            </summary>
+            <param name="e">
+            The Windows Forms key-press event arguments.
+            </param>
+            <returns>
+            An instance of a <see cref="T:Awesomium.Core.WebKeyboardEvent"/> representing the Awesomium equivalent of a
+            Windows Forms key-press event.
+            </returns>
+        </member>
+        <member name="M:Awesomium.Windows.Forms.Utilities.GetMouseButton(System.Windows.Forms.MouseButtons)">
+            <summary>
+            Gets the Windows Forms <see cref="T:System.Windows.Forms.MouseButtons"/> equivalent of an Awesomium <see cref="T:Awesomium.Core.MouseButton"/>.
+            </summary>
+            <param name="button">
+            The Awesomium button.
+            </param>
+            <returns>
+            A Windows Forms <see cref="T:System.Windows.Forms.MouseButtons"/>, or <see cref="F:Awesomium.Core.MouseButton.Left"/> if <see cref="F:System.Windows.Forms.MouseButtons.None"/>
+            is specified.
+            </returns>
+        </member>
+        <member name="M:Awesomium.Windows.Forms.Utilities.ToRectangle(Awesomium.Core.AweRect)">
+            <summary>
+            Gets a <see cref="T:System.Drawing.Rectangle"/> equivalent of an Awesomium <see cref="T:Awesomium.Core.AweRect"/>.
+            </summary>
+            <param name="aweRect">
+            An <see cref="T:Awesomium.Core.AweRect"/> value representing an Awesomium rectangle.
+            </param>
+            <returns>
+            A <see cref="T:System.Drawing.Rectangle"/> value equivalent of an Awesomium <see cref="T:Awesomium.Core.AweRect"/>.
+            </returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{2EAA3D0B-A9B2-4593-9703-CB1009B30AAD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharp", "CSharp", "{6FD1BADB-7D56-4EB0-B0AC-CD83068FF4CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Windows Forms", "Windows Forms", "{400007E1-8E5A-4F50-B253-1EAB280B5BA9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharp", "CSharp", "{79A66255-FF07-40AB-83BB-1A899699ED0C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WPF", "WPF", "{48B86058-3A80-4ADE-9046-5D8CB1BE96D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharp", "CSharp", "{E7C97B3E-564D-40BB-B073-A8100CD6A47F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicSample", "Core\CSharp\BasicSample\BasicSample.csproj", "{81B43F18-EFE9-4DF9-8E85-8C9C8AD425C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsSample", "Windows Forms\CSharp\WinFormsSample\WinFormsSample.csproj", "{233E6FAF-9130-45A8-A199-2DFFDC76EABD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebControlSample", "WPF\CSharp\WebControlSample\WebControlSample.csproj", "{77C404AF-EED6-44D7-8BF5-E1AB84F3CD01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release (Packed)|x86 = Release (Packed)|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81B43F18-EFE9-4DF9-8E85-8C9C8AD425C0}.Debug|x86.ActiveCfg = Debug|x86
+		{81B43F18-EFE9-4DF9-8E85-8C9C8AD425C0}.Debug|x86.Build.0 = Debug|x86
+		{81B43F18-EFE9-4DF9-8E85-8C9C8AD425C0}.Release (Packed)|x86.ActiveCfg = Release|x86
+		{81B43F18-EFE9-4DF9-8E85-8C9C8AD425C0}.Release (Packed)|x86.Build.0 = Release|x86
+		{81B43F18-EFE9-4DF9-8E85-8C9C8AD425C0}.Release|x86.ActiveCfg = Release|x86
+		{81B43F18-EFE9-4DF9-8E85-8C9C8AD425C0}.Release|x86.Build.0 = Release|x86
+		{233E6FAF-9130-45A8-A199-2DFFDC76EABD}.Debug|x86.ActiveCfg = Debug|x86
+		{233E6FAF-9130-45A8-A199-2DFFDC76EABD}.Debug|x86.Build.0 = Debug|x86
+		{233E6FAF-9130-45A8-A199-2DFFDC76EABD}.Release (Packed)|x86.ActiveCfg = Release (Packed)|x86
+		{233E6FAF-9130-45A8-A199-2DFFDC76EABD}.Release (Packed)|x86.Build.0 = Release (Packed)|x86
+		{233E6FAF-9130-45A8-A199-2DFFDC76EABD}.Release|x86.ActiveCfg = Release|x86
+		{233E6FAF-9130-45A8-A199-2DFFDC76EABD}.Release|x86.Build.0 = Release|x86
+		{77C404AF-EED6-44D7-8BF5-E1AB84F3CD01}.Debug|x86.ActiveCfg = Debug|x86
+		{77C404AF-EED6-44D7-8BF5-E1AB84F3CD01}.Debug|x86.Build.0 = Debug|x86
+		{77C404AF-EED6-44D7-8BF5-E1AB84F3CD01}.Release (Packed)|x86.ActiveCfg = Release|x86
+		{77C404AF-EED6-44D7-8BF5-E1AB84F3CD01}.Release (Packed)|x86.Build.0 = Release|x86
+		{77C404AF-EED6-44D7-8BF5-E1AB84F3CD01}.Release|x86.ActiveCfg = Release|x86
+		{77C404AF-EED6-44D7-8BF5-E1AB84F3CD01}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6FD1BADB-7D56-4EB0-B0AC-CD83068FF4CF} = {2EAA3D0B-A9B2-4593-9703-CB1009B30AAD}
+		{81B43F18-EFE9-4DF9-8E85-8C9C8AD425C0} = {6FD1BADB-7D56-4EB0-B0AC-CD83068FF4CF}
+		{79A66255-FF07-40AB-83BB-1A899699ED0C} = {400007E1-8E5A-4F50-B253-1EAB280B5BA9}
+		{233E6FAF-9130-45A8-A199-2DFFDC76EABD} = {79A66255-FF07-40AB-83BB-1A899699ED0C}
+		{E7C97B3E-564D-40BB-B073-A8100CD6A47F} = {48B86058-3A80-4ADE-9046-5D8CB1BE96D6}
+		{77C404AF-EED6-44D7-8BF5-E1AB84F3CD01} = {E7C97B3E-564D-40BB-B073-A8100CD6A47F}
+	EndGlobalSection
+EndGlobal

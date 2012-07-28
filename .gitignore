@@ -2,6 +2,8 @@
 bin
 obj
 DB
+_ReSharper.Kolibrie Mail
+design
 
 # mstest test results
 TestResults
