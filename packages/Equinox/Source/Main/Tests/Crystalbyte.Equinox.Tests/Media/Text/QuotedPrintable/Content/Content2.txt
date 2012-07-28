@@ -1,0 +1,683 @@
+﻿﻿<html><body leftmargin=3D"0" topmargin=3D"0" marginwidth=3D"0" marginheigh=
+t=3D"0" bgColor=3D"#dc5034">
+<DIV id=3D"isbodytag" leftmargin=3D"0" topmargin=3D"0" marginwidth=3D"0" ma=
+rginheight=3D"0" bgColor=3D"#000000" margin=3D"0"></DIV>=20
+<table width=3D"100%" bgcolor=3D"#dc5034" cellpadding=3D"0" cellspacing=3D"=
+0" border=3D"0"><!--UTF-8-->
+<style type=3D"text/css">
+.ReadMsgBody {width: 100%;}
+.ExternalClass {width: 100%;}
+</style>
+	<tr>
+	<td bgcolor=3D"#dc5034"><table width=3D"748" bgcolor=3D"#dc5034" cellpaddi=
+ng=3D"0" cellspacing=3D"0" border=3D"0" align=3D"center">
+    <tr>
+    <td>
+		<table width=3D"748" bgcolor=3D"#dc5034" cellpadding=3D"0" cellspacing=3D=
+"0" border=3D"0">
+		<tr>
+			<td valign=3D"top" align=3D"left">
+=09=09=09
+			<table width=3D"100%" cellpadding=3D"0" cellspacing=3D"0" border=3D"0">
+                <tr>
+                    <td valign=3D"top" align=3D"left">
+                        <table width=3D"100%" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0">
+                               <tr>
+                                   <td valign=3D"top" align=3D"left"><img s=
+tyle=3D"display:block" src=3D"http://img.ed4.net/dell/emea/2011/Q3/WK11/Mul=
+tislot/de_dhs_0.jpg" width=3D"748" height=3D"9"  border=3D"0"></td>
+                               </tr>
+                               <tr>
+                                   <td valign=3D"top" align=3D"left">
+                                       <table cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"100%" bgcolor=3D"#dc5034">
+                                              <tr>
+                                                  <td valign=3D"top" align=
+=3D"left"><img style=3D"display:block" src=3D"http://img.ed4.net/dell/emea/=
+2011/Q3/WK11/Multislot/de_dhs_0.1.jpg" width=3D"121" height=3D"30"  border=
+=3D"0"></td>
+                                                  <td align=3D"left" style=
+=3D"padding-left:0px; padding-bottom:3px; padding-top:0px; width:112px"><a
+ href=3D"http://click.euro.dell.com/r/CP16GW/1Z17L/40X2WO1/XGTK84/407BHU/KE=
+/h?a=3DCP16GW&b=3DM9NA54&c=3DR7UMV9&d=3DZB76ZHF&e=3D1" target=3D"_blank" st=
+yle=3D"font-family: Arial,Helvetica,sans-serif; font-size: 10px; color: rgb=
+(255, 255, 255); text-decoration: none;"
+>Web-Version</a></td>
+                                                  <td valign=3D"top" align=
+=3D"left"><img style=3D"display:block" src=3D"http://img.ed4.net/dell/emea/=
+2011/Q3/WK11/Multislot/de_dhs_0.3.jpg" width=3D"515" height=3D"30"  border=
+=3D"0"></td>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+                                         </tr>
+                                       </table>
+                                   </td>
+                               </tr>
+                               <tr>
+                                   <td valign=3D"top" align=3D"left"><img s=
+tyle=3D"display:block" src=3D"http://img.ed4.net/dell/emea/2011/Q3/WK11/Mul=
+tislot/de_dhs_0.2.jpg" width=3D"748" height=3D"8"  border=3D"0"></td>
+                               </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign=3D"top" align=3D"left">
+                        <table width=3D"100%" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0">
+                               <tr>
+                                   <td valign=3D"top" align=3D"left"><img s=
+tyle=3D"display:block" src=3D"http://img.ed4.net/dell/emea/2011/Q3/WK11/Mul=
+tislot/de_dhs_1.0.jpg" width=3D"9" height=3D"71"  border=3D"0"></td>
+                                   <td valign=3D"top" align=3D"left"><a
+ href=3D"http://click.euro.dell.com/r/CP16GW/1Z17L/40X2WO1/XGTK84/ZBCUUD/KE=
+/h?a1=3D146651896&a2=3DMTk5MDM2MA=3D=3D-ODA4MjI0NzY=3D-MzM4MDY3Njg=3D" targ=
+et=3D"_blank"
+><img style=3D"display:block" src=3D"http://img.ed4.net/dell/emea/2011/Q3/W=
+K11/Multislot/de_dhs_1.jpg" width=3D"74" height=3D"71"  border=3D"0" alt=3D=
+"DELL"></a></td>
+                                   <td valign=3D"top" align=3D"left">
+                                       <table width=3D"100%" cellpadding=3D=
+"0" cellspacing=3D"0" border=3D"0">
+                                              <tr>
+                                                  <td valign=3D"top" align=
+=3D"left"><img style=3D"display:block" src=3D"http://img.ed4.net/dell/emea/=
+2011/Q3/WK11/Multislot/de_dhs_1.1.jpg" width=3D"665" height=3D"41"  border=
+=3D"0"></td>
+                                              </tr>
+                                              <tr>
+                                                  <td valign=3D"top" align=
+=3D"left">
+                                                      <table width=3D"100%"=
+ cellpadding=3D"0" cellspacing=3D"0" border=3D"0">
+                                                             <tr>
+                                                                 <td valign=
+=3D"top" align=3D"left"><a
+ href=3D"http://click.euro.dell.com/r/CP16GW/1Z17L/40X2WO1/XGTK84/D4IAAX/KE=
+/h?a1=3D146651896&a2=3DMTk5MDM2MA=3D=3D-ODA4MjI0NzY=3D-MzM4MDY3Njg=3D" targ=
+et=3D"_blank"
+><img style=3D"display:block" src=3D"http://img.ed4.net/dell/emea/2011/Q3/W=
+K11/Multislot/de_dhs_1.4.jpg" width=3D"93" height=3D"30"  border=3D"0"></a>
+</td>
+                                                                 <td valign=
+=3D"top" align=3D"left"><a
+ href=3D"http://click.euro.dell.com/r/CP16GW/1Z17L/40X2WO1/XGTK84/C5Y2VA/KE=
+/h?a1=3D146651896&a2=3DMTk5MDM2MA=3D=3D-ODA4MjI0NzY=3D-MzM4MDY3Njg=3D" targ=
+et=3D"_blank"
+><img style=3D"display:block" src=3D"http://img.ed4.net/dell/emea/2011/Q3/W=
+K11/Multislot/de_dhs_1.5.jpg" width=3D"89" height=3D"30"  border=3D"0"></a>=
+</td>
+                                                                 <td valign=
+=3D"top" align=3D"left"><a
+ href=3D"http://click.euro.dell.com/r/CP16GW/1Z17L/40X2WO1/XGTK84/GK9MM9/KE=
+/h?a1=3D146651896&a2=3DMTk5MDM2MA=3D=3D-ODA4MjI0NzY=3D-MzM4MDY3Njg=3D" targ=
+et=3D"_blank"
+><img style=3D"display:block" src=3D"http://img.ed4.net/dell/emea/2011/Q3/W=
+K11/Multislot/de_dhs_1.6.jpg" width=3D"90" height=3D"30"  border=3D"0"></a>=
+</td>
+                                                                 <td valign=
+=3D"top" align=3D"left"><a
+ href=3D"http://click.euro.dell.com/r/CP16GW/1Z17L/40X2WO1/XGTK84/QFLQQ1/KE=
+/h?a1=3D146651896&a2=3DMTk5MDM2MA=3D=3D-ODA4MjI0NzY=3D-MzM4MDY3Njg=3D" targ=
+et=3D"_blank"
+><img style=3D"display:block" src=3D"http://img.ed4.net/dell/emea/2011/Q3/W=
+K11/Multislot/de_dhs_1.7.jpg" width=3D"90" height=3D"30"  border=3D"0"></a>
+</td>
+                                                                 <td valign=
+=3D"top" align=3D"left"><a
+ href=3D"http://click.euro.dell.com/r/CP16GW/1Z17L/40X2WO1/XGTK84/M93DDB/KE=
+/h?a1=3D146651896&a2=3DMTk5MDM2MA=3D=3D-ODA4MjI0NzY=3D-MzM4MDY3Njg=3D" targ=
+et=3D"_blank"
+><img style=3D"display:block" src=3D"http://img.ed4.net/dell/emea/2011/Q3/W=
+K11/Multislot/de_dhs_1.8.jpg" width=3D"89" height=3D"30"  border=3D"0"></a>=
+</td>
+                                                                 <td valign=
+=3D"top" align=3D"left"><a
+ href=3D"http://click.euro.dell.com/r/CP16GW/1Z17L/40X2WO1/XGTK84/FXQ77J/KE=
+/h?a1=3D146651896&a2=3DMTk5MDM2MA=3D=3D-ODA4MjI0NzY=3D-MzM4MDY3Njg=3D" targ=
+et=3D"_blank"
+><img style=3D"display:block" src=3D"http://img.ed4.net/dell/emea/2011/Q3/W=
+K11/Multislot/de_dhs_1.9.jpg" width=3D"90" height=3D"30"  border=3D"0"></a>=
+</td>
+                                                                 <td valign=
+=3D"top" align=3D"left"><a
+ href=3D"http://click.euro.dell.com/r/CP16GW/1Z17L/40X2WO1/XGTK84/V18FFH/KE=
+/h?a1=3D146651896&a2=3DMTk5MDM2MA=3D=3D-ODA4MjI0NzY=3D-MzM4MDY3Njg=3D" targ=
+et=3D"_blank"
+><img style=3D"display:block" src=3D"http://img.ed4.net/dell/emea/2011/Q3/W=
+K11/Multislot/de_dhs_1.10.jpg" width=3D"94" height=3D"30"  border=3D"0"></a=
+></td>
+                                                                 <td valign=
+=3D"top" align=3D"left"><img style=3D"display:block" src=3D"http://img.ed4.=
+net/dell/emea/2011/Q3/WK11/Multislot/de_dhs_1.11.jpg" width=3D"30" height=
+=3D"30"  border=3D"0"></td>
+                                                             </tr>
+                                                      </table>
+                                                  </td>=20=20=20=20
+                                              </tr>
+                                       </table>
+                                   </td>
+                               </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign=3D"top" align=3D"left"><img style=3D"display=
+:block" src=3D"http://img.ed4.net/dell/emea/2011/Q3/WK11/Multislot/de_dhs_1=
+.12.jpg" width=3D"748" height=3D"8"  border=3D"0"></td>
+                </tr>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+                <tr>
+                <td valign=3D"top" align=3D"left">
+                    <table width=3D"100%" border=3D"0" cellspacing=3D"0" ce=
+llpadding=3D"0">
+                           <tr>
+                               <td valign=3D"top" align=3D"left"><a
+ href=3D"http://click.euro.dell.com/r/CP16GW/1Z17L/40X2WO1/XGTK84/BMDVCA/KE=
+/h?a1=3D146651896&a2=3DMTk5MDM2MA=3D=3D-ODA4MjI0NzY=3D-MzM4MDY3Njg=3D" targ=
+et=3D"_blank"
+><img style=3D"display:block" src=3D"http://img.ed4.net/dell/emea/2011/Q3/W=
+K11/Multislot/de_dhs_15.jpg" width=3D"590" height=3D"43"  border=3D"0"></a>
+</td>
+                               <td>
+                                   <table width=3D"100%" border=3D"0" cells=
+pacing=3D"0" cellpadding=3D"0">
+                                          <tr>
+                                              <td valign=3D"top" align=3D"l=
+eft"><a
+ href=3D"http://click.euro.dell.com/r/CP16GW/1Z17L/40X2WO1/XGTK84/BMDVCA/KE=
+/h?a1=3D146651896&a2=3DMTk5MDM2MA=3D=3D-ODA4MjI0NzY=3D-MzM4MDY3Njg=3D" targ=
+et=3D"_blank"
+><img style=3D"display:block" src=3D"http://img.ed4.net/dell/emea/2011/Q3/W=
+K11/Multislot/de_dhs_15.1.jpg" width=3D"124" height=3D"14"  border=3D"0"></=
+a></td>
+                                     </tr>
+                                          <tr>
+                                              <td style=3D"background-color=
+:#eeeeee; font-family:Arial, Helvetica, sans-serif; font-size:12px; height:=
+ 21px; font-weight:bold; text-align: center; color:#444444;"><strong>W40PGC=
+2K0QNP08</strong></td>
+                                          </tr>
+                                          <tr>
+                                              <td valign=3D"bottom"><a
+ href=3D"http://click.euro.dell.com/r/CP16GW/1Z17L/40X2WO1/XGTK84/BMDVCA/KE=
+/h?a1=3D146651896&a2=3DMTk5MDM2MA=3D=3D-ODA4MjI0NzY=3D-MzM4MDY3Njg=3D" targ=
+et=3D"_blank"
+><img style=3D"display:block" src=3D"http://img.ed4.net/dell/emea/2011/Q3/W=
+K11/Multislot/de_dhs_15.3.jpg" width=3D"124" height=3D"8"  border=3D"0"></a=
+></td>
+                                     </tr>
+                                   </table>                               <=
+/td>
+                               <td valign=3D"top" align=3D"left"><a
+ href=3D"http://click.euro.dell.com/r/CP16GW/1Z17L/40X2WO1/XGTK84/BMDVCA/KE=
+/h?a1=3D146651896&a2=3DMTk5MDM2MA=3D=3D-ODA4MjI0NzY=3D-MzM4MDY3Njg=3D" targ=
+et=3D"_blank"
+><img style=3D"display:block" src=3D"http://img.ed4.net/dell/emea/2011/Q3/W=
+K11/Multislot/de_dhs_15.4.jpg" width=3D"34" height=3D"43"  border=3D"0"></a=
+></td>
+                          </tr>
+                    </table>                    </td>
+                </tr>=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20
+               <tr>
+                    <td valign=3D"top" align=3D"left"><a
+ href=3D"http://click.euro.dell.com/r/CP16GW/1Z17L/40X2WO1/XGTK84/BMDVCA/KE=
+/h?a1=3D146651896&a2=3DMTk5MDM2MA=3D=3D-ODA4MjI0NzY=3D-MzM4MDY3Njg=3D" targ=
+et=3D"_blank"
+><img style=3D"display:block" src=3D"http://img.ed4.net/dell/emea/2011/Q3/W=
+K11/Multislot/de_dhs_15.5.jpg" width=3D"748" height=3D"30"  border=3D"0"></=
+a></td>
+               </tr>
+               <tr>
+                   <td valign=3D"top" align=3D"left"><a
+ href=3D"http://click.euro.dell.com/r/CP16GW/1Z17L/40X2WO1/XGTK84/182L1U/KE=
+/h?a1=3D146651896&a2=3DMTk5MDM2MA=3D=3D-ODA4MjI0NzY=3D-MzM4MDY3Njg=3D" targ=
+et=3D"_blank"
+><img style=3D"display:block" src=3D"http://img.ed4.net/dell/emea/2011/Q3/W=
+K11/Multislot/de_dhs_2.jpg" width=3D"748" height=3D"355"  border=3D"0"></a>
+</td>
+               </tr>
+                 <tr>
+                   <td valign=3D"top" align=3D"left"><a
+ href=3D"http://click.euro.dell.com/r/CP16GW/1Z17L/40X2WO1/XGTK84/8AWOOA/KE=
+/h?a1=3D146651896&a2=3DMTk5MDM2MA=3D=3D-ODA4MjI0NzY=3D-MzM4MDY3Njg=3D" targ=
+et=3D"_blank"
+><img style=3D"display:block" src=3D"http://img.ed4.net/dell/emea/2011/Q3/W=
+K11/Multislot/de_dhs_2.1.jpg" width=3D"748" height=3D"262"  border=3D"0"></=
+a></td>
+               </tr>=20=20
+               <tr>
+                   <td valign=3D"top" align=3D"left"><img style=3D"display:=
+block" src=3D"http://img.ed4.net/dell/emea/2011/Q3/WK11/Multislot/de_dhs_3.=
+0.jpg" width=3D"748" height=3D"10"  border=3D"0"></td>
+               </tr>
+                <tr>
+                    <td valign=3D"top" align=3D"left">
+                        <table cellpadding=3D"0" cellspacing=3D"0" border=
+=3D"0" width=3D"100%">
+                               <tr>
+                                   <td valign=3D"top" align=3D"left"><table=
+ cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"100%">
+                                              <tr>
+                                                  <td valign=3D"top" align=
+=3D"left"><a
+ href=3D"http://click.euro.dell.com/r/CP16GW/1Z17L/40X2WO1/XGTK84/9ZX0O0/KE=
+/h?a1=3D146651896&a2=3DMTk5MDM2MA=3D=3D-ODA4MjI0NzY=3D-MzM4MDY3Njg=3D" targ=
+et=3D"_blank"
+><img style=3D"display:block" src=3D"http://img.ed4.net/dell/emea/2011/Q3/W=
+K11/Multislot/de_dhs_3.jpg" width=3D"374" height=3D"178"  border=3D"0"></a>
+</td>
+                                              </tr>
+                                              <tr>
+                                                  <td valign=3D"top" align=
+=3D"left">
+                                                      <table cellpadding=3D=
+"0" cellspacing=3D"0" border=3D"0" width=3D"100%">
+                                                             <tr>
+                                                                 <td valign=
+=3D"top" align=3D"left"><a
+ href=3D"http://click.euro.dell.com/r/CP16GW/1Z17L/40X2WO1/XGTK84/9ZX0O0/KE=
+/h?a1=3D146651896&a2=3DMTk5MDM2MA=3D=3D-ODA4MjI0NzY=3D-MzM4MDY3Njg=3D" targ=
+et=3D"_blank"
+><img style=3D"display:block" src=3D"http://img.ed4.net/dell/emea/2011/Q3/W=
+K11/Multislot/de_dhs_3.1.jpg" width=3D"374" height=3D"34"  border=3D"0"></a=
+></td>
+                                                             </tr>
+                                                      </table>
+                                                  </td>
+                                              </tr>
+                                              <tr>
+                                                  <td valign=3D"top" align=
+=3D"left"><a
+ href=3D"http://click.euro.dell.com/r/CP16GW/1Z17L/40X2WO1/XGTK84/9ZX0O0/KE=
+/h?a1=3D146651896&a2=3DMTk5MDM2MA=3D=3D-ODA4MjI0NzY=3D-MzM4MDY3Njg=3D" targ=
+et=3D"_blank"
+><img style=3D"display:block" src=3D"http://img.ed4.net/dell/emea/2011/Q3/W=
+K11/Multislot/de_dhs_3.4.jpg" width=3D"374" height=3D"71"  border=3D"0"></a=
+></td>
+                                              </tr>
+                                       </table></td>
+                                   <td valign=3D"top" align=3D"left">
+                                       <table cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0" width=3D"100%">
+                                              <tr>
+                                                  <td valign=3D"top" align=
+=3D"left"><a
+ href=3D"http://click.euro.dell.com/r/CP16GW/1Z17L/40X2WO1/XGTK84/BMDVVQ/KE=
+/h?a1=3D146651896&a2=3DMTk5MDM2MA=3D=3D-ODA4MjI0NzY=3D-MzM4MDY3Njg=3D" targ=
+et=3D"_blank"
+><img style=3D"display:block" src=3D"http://img.ed4.net/dell/emea/2011/Q3/W=
+K11/Multislot/de_dhs_4.jpg" width=3D"374" height=3D"178"  border=3D"0"></a>
+</td>
+                                              </tr>
+                                              <tr>
+                                                  <td valign=3D"top" align=
+=3D"left">
+                                                      <table cellpadding=3D=
+"0" cellspacing=3D"0" border=3D"0" width=3D"100%">
+                                                             <tr>
+                                                                 <td valign=
+=3D"top" align=3D"left"><a
+ href=3D"http://click.euro.dell.com/r/CP16GW/1Z17L/40X2WO1/XGTK84/BMDVVQ/KE=
+/h?a1=3D146651896&a2=3DMTk5MDM2MA=3D=3D-ODA4MjI0NzY=3D-MzM4MDY3Njg=3D" targ=
+et=3D"_blank"
+><img style=3D"display:block" src=3D"http://img.ed4.net/dell/emea/2011/Q3/W=
+K11/Multislot/de_dhs_4.1.jpg" width=3D"374" height=3D"34"  border=3D"0"></a=
+></td>
+                                                             </tr>
+                                                      </table>
+                                                  </td>
+                                              </tr>
+                                              <tr>
+                                                  <td valign=3D"top" align=
+=3D"left"><a
+ href=3D"http://click.euro.dell.com/r/CP16GW/1Z17L/40X2WO1/XGTK84/BMDVVQ/KE=
+/h?a1=3D146651896&a2=3DMTk5MDM2MA=3D=3D-ODA4MjI0NzY=3D-MzM4MDY3Njg=3D" targ=
+et=3D"_blank"
+><img style=3D"display:block" src=3D"http://img.ed4.net/dell/emea/2011/Q3/W=
+K11/Multislot/de_dhs_4.4.jpg" width=3D"374" height=3D"71"  border=3D"0"></a=
+></td>
+                                              </tr>
+                                       </table>
+                                   </td>
+                               </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                   <td valign=3D"top" align=3D"left"><img style=3D"display:=
+block" src=3D"http://img.ed4.net/dell/emea/2011/Q3/WK11/Multislot/de_dhs_5.=
+0.jpg" width=3D"748" height=3D"10"  border=3D"0"></td>
+                </tr>
+                <tr>
+                    <td valign=3D"top" align=3D"left"><a
+ href=3D"http://click.euro.dell.com/r/CP16GW/1Z17L/40X2WO1/XGTK84/RNT9QY/KE=
+/h?a1=3D146651896&a2=3DMTk5MDM2MA=3D=3D-ODA4MjI0NzY=3D-MzM4MDY3Njg=3D" targ=
+et=3D"_blank"
+><img style=3D"display:block" src=3D"http://img.ed4.net/dell/emea/2011/Q3/W=
+K11/Multislot/de_dhs_5.1.jpg" width=3D"748" height=3D"113"  border=3D"0"></=
+a></td>
+                </tr>
+                <tr>
+                   <td valign=3D"top" align=3D"left"><img style=3D"display:=
+block" src=3D"http://img.ed4.net/dell/emea/2011/Q3/WK11/Multislot/de_dhs_6.=
+0.jpg" width=3D"748" height=3D"9"  border=3D"0"></td>
+               </tr>
+               <tr>
+                    <td valign=3D"top" align=3D"left">
+                        <table width=3D"100%" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0">
+                               <tr>
+                                   <td valign=3D"top" align=3D"left"><a
+ href=3D"http://click.euro.dell.com/r/CP16GW/1Z17L/40X2WO1/XGTK84/9ZX004/KE=
+/h?a1=3D146651896&a2=3DMTk5MDM2MA=3D=3D-ODA4MjI0NzY=3D-MzM4MDY3Njg=3D" targ=
+et=3D"_blank"
+><img style=3D"display:block" src=3D"http://img.ed4.net/dell/emea/2011/Q3/W=
+K11/Multislot/de_dhs_6.jpg" width=3D"258" height=3D"343"  border=3D"0"></a>
+</td>
+                                   <td valign=3D"top" align=3D"left"><a
+ href=3D"http://click.euro.dell.com/r/CP16GW/1Z17L/40X2WO1/XGTK84/KEFXXO/KE=
+/h?a1=3D146651896&a2=3DMTk5MDM2MA=3D=3D-ODA4MjI0NzY=3D-MzM4MDY3Njg=3D" targ=
+et=3D"_blank"
+><img style=3D"display:block" src=3D"http://img.ed4.net/dell/emea/2011/Q3/W=
+K11/Multislot/de_dhs_7.jpg" width=3D"241" height=3D"343"  border=3D"0"></a>=
+</td>
+                                   <td valign=3D"top" align=3D"left"><a
+ href=3D"http://click.euro.dell.com/r/CP16GW/1Z17L/40X2WO1/XGTK84/LQNKK8/KE=
+/h?a1=3D146651896&a2=3DMTk5MDM2MA=3D=3D-ODA4MjI0NzY=3D-MzM4MDY3Njg=3D" targ=
+et=3D"_blank"
+><img style=3D"display:block" src=3D"http://img.ed4.net/dell/emea/2011/Q3/W=
+K11/Multislot/de_dhs_8.jpg" width=3D"249" height=3D"343"  border=3D"0"></a>=
+</td>=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20
+                               </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                   <td valign=3D"top" align=3D"left"><img style=3D"display:=
+block" src=3D"http://img.ed4.net/dell/emea/2011/Q3/WK11/Multislot/de_dhs_8.=
+1.jpg" width=3D"748" height=3D"10"  border=3D"0"></td>
+               </tr>
+               <tr>
+                    <td valign=3D"top" align=3D"left"><a
+ href=3D"http://click.euro.dell.com/r/CP16GW/1Z17L/40X2WO1/XGTK84/5CMGG9/KE=
+/h?a1=3D146651896&a2=3DMTk5MDM2MA=3D=3D-ODA4MjI0NzY=3D-MzM4MDY3Njg=3D" targ=
+et=3D"_blank"
+><img style=3D"display:block" src=3D"http://img.ed4.net/dell/emea/2011/Q3/W=
+K11/Multislot/de_dhs_8.2.jpg" width=3D"748" height=3D"96"  border=3D"0"></a=
+></td>
+                </tr>
+                <tr>
+                   <td valign=3D"top" align=3D"left"><img style=3D"display:=
+block" src=3D"http://img.ed4.net/dell/emea/2011/Q3/WK11/Multislot/de_dhs_8.=
+3.jpg" width=3D"748" height=3D"10"  border=3D"0"></td>
+               </tr>
+               <tr>
+                    <td valign=3D"top" align=3D"left"><a
+ href=3D"http://click.euro.dell.com/r/CP16GW/1Z17L/40X2WO1/XGTK84/RNT99F/KE=
+/h?a1=3D146651896&a2=3DMTk5MDM2MA=3D=3D-ODA4MjI0NzY=3D-MzM4MDY3Njg=3D" targ=
+et=3D"_blank"
+><img style=3D"display:block" src=3D"http://img.ed4.net/dell/emea/2011/Q3/W=
+K11/Multislot/de_dhs_8.4.jpg" width=3D"748" height=3D"150"  border=3D"0"></=
+a></td>
+                </tr>
+               <tr>
+                   <td valign=3D"top" align=3D"left"><img style=3D"display:=
+block" src=3D"http://img.ed4.net/dell/emea/2011/Q3/WK11/Multislot/de_dhs_9.=
+0.jpg" width=3D"748" height=3D"10"  border=3D"0"></td>
+               </tr>
+                <tr>
+                    <td valign=3D"top" align=3D"left"><a
+ href=3D"http://click.euro.dell.com/r/CP16GW/1Z17L/40X2WO1/XGTK84/LQNKKP/KE=
+/h?a1=3D146651896&a2=3DMTk5MDM2MA=3D=3D-ODA4MjI0NzY=3D-MzM4MDY3Njg=3D" targ=
+et=3D"_blank"
+><img style=3D"display:block" src=3D"http://img.ed4.net/dell/emea/2011/Q3/W=
+K11/Multislot/de_dhs_9.1.jpg" width=3D"748" height=3D"150"  border=3D"0"></=
+a></td>
+                </tr>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+               <tr>
+                   <td valign=3D"top" align=3D"left"><img style=3D"display:=
+block" src=3D"http://img.ed4.net/dell/emea/2011/Q3/WK11/Multislot/de_dhs_9.=
+2.jpg" width=3D"748" height=3D"10"  border=3D"0"></td>
+               </tr>
+               <tr>
+                    <td valign=3D"top" align=3D"left">
+                        <table width=3D"100%" cellpadding=3D"0" cellspacing=
+=3D"0" border=3D"0">
+                               <tr>
+                                   <td valign=3D"top" align=3D"left"><a
+ href=3D"http://click.euro.dell.com/r/CP16GW/1Z17L/40X2WO1/XGTK84/KEFXW5/KE=
+/h?a1=3D146651896&a2=3DMTk5MDM2MA=3D=3D-ODA4MjI0NzY=3D-MzM4MDY3Njg=3D" targ=
+et=3D"_blank"
+><img style=3D"display:block" src=3D"http://img.ed4.net/dell/emea/2011/Q3/W=
+K11/Multislot/de_dhs_9.jpg" width=3D"134" height=3D"135"  border=3D"0"></a>
+</td>
+                                   <td valign=3D"top" align=3D"left"><a
+ href=3D"http://click.euro.dell.com/r/CP16GW/1Z17L/40X2WO1/XGTK84/NSPYYB/KE=
+/h?a1=3D146651896&a2=3DMTk5MDM2MA=3D=3D-ODA4MjI0NzY=3D-MzM4MDY3Njg=3D" targ=
+et=3D"_blank"
+><img style=3D"display:block" src=3D"http://img.ed4.net/dell/emea/2011/Q3/W=
+K11/Multislot/de_dhs_10.jpg" width=3D"111" height=3D"135"  border=3D"0"></a=
+></td>
+                                   <td valign=3D"top" align=3D"left"><a
+ href=3D"http://click.euro.dell.com/r/CP16GW/1Z17L/40X2WO1/XGTK84/FXQ779/KE=
+/h?a1=3D146651896&a2=3DMTk5MDM2MA=3D=3D-ODA4MjI0NzY=3D-MzM4MDY3Njg=3D" targ=
+et=3D"_blank"
+><img style=3D"display:block" src=3D"http://img.ed4.net/dell/emea/2011/Q3/W=
+K11/Multislot/de_dhs_11.jpg" width=3D"130" height=3D"135"  border=3D"0"></a=
+></td>
+                                   <td valign=3D"top" align=3D"left"><a
+ href=3D"http://click.euro.dell.com/r/CP16GW/1Z17L/40X2WO1/XGTK84/EWEZZX/KE=
+/h?a1=3D146651896&a2=3DMTk5MDM2MA=3D=3D-ODA4MjI0NzY=3D-MzM4MDY3Njg=3D" targ=
+et=3D"_blank"
+><img style=3D"display:block" src=3D"http://img.ed4.net/dell/emea/2011/Q3/W=
+K11/Multislot/de_dhs_12.jpg" width=3D"111" height=3D"135"  border=3D"0"></a=
+></td>
+                                   <td valign=3D"top" align=3D"left"><a
+ href=3D"http://click.euro.dell.com/r/CP16GW/1Z17L/40X2WO1/XGTK84/XTO335/KE=
+/h?a1=3D146651896&a2=3DMTk5MDM2MA=3D=3D-ODA4MjI0NzY=3D-MzM4MDY3Njg=3D" targ=
+et=3D"_blank"
+><img style=3D"display:block" src=3D"http://img.ed4.net/dell/emea/2011/Q3/W=
+K11/Multislot/de_dhs_13.jpg" width=3D"111" height=3D"135"  border=3D"0"></a=
+></td>
+                                   <td valign=3D"top" align=3D"left"><a
+ href=3D"http://click.euro.dell.com/r/CP16GW/1Z17L/40X2WO1/XGTK84/BMDVCZ/KE=
+/h?a1=3D146651896&a2=3DMTk5MDM2MA=3D=3D-ODA4MjI0NzY=3D-MzM4MDY3Njg=3D" targ=
+et=3D"_blank"
+><img style=3D"display:block" src=3D"http://img.ed4.net/dell/emea/2011/Q3/W=
+K11/Multislot/de_dhs_14.jpg" width=3D"151" height=3D"135"  border=3D"0"></a=
+></td>
+                               </tr>
+                        </table>                    </td>
+                </tr>
+                <tr>
+                    <td valign=3D"top" align=3D"left">
+                         <table width=3D"100%" cellpadding=3D"0" cellspacin=
+g=3D"0" border=3D"0">
+                                <tr>
+                                    <td valign=3D"top" align=3D"left" bgcol=
+or=3D"#dc5034"><img style=3D"display:block" src=3D"http://img.ed4.net/dell/=
+emea/2011/Q3/WK11/Multislot/de_dhs_col_1.jpg" width=3D"9" height=3D"65"  bo=
+rder=3D"0"></td>
+                                    <td valign=3D"top" align=3D"left" bgcol=
+or=3D"#ffffff"><img style=3D"display:block" src=3D"http://img.ed4.net/dell/=
+emea/2011/Q3/WK11/Multislot/de_dhs_col_2.jpg" width=3D"15" height=3D"65"  b=
+order=3D"0"></td>
+                                    <td valign=3D"top" align=3D"left" bgcol=
+or=3D"#ffffff">
+                                    <table cellpadding=3D"0" cellspacing=3D=
+"0" border=3D"0" width=3D"100%">
+                                           <tr>
+                                               <td valign=3D"top" align=3D"=
+left" bgcolor=3D"#ffffff" style=3D"padding-top:18px; padding-bottom:5px;"><=
+font face=3D"Verdana, Arial, Helvetica, sans-serif" size=3D"0" color=3D"#aa=
+aaaa">
+                                    <a
+ href=3D"http://click.euro.dell.com/r/CP16GW/1Z17L/40X2WO1/XGTK84/3OZHHD/KE=
+/h?a1=3D146651896&a2=3DMTk5MDM2MA=3D=3D-ODA4MjI0NzY=3D-MzM4MDY3Njg=3D" targ=
+et=3D"_blank" style=3D"font-family: Arial,Helvetica,sans-serif; font-size: =
+16px; color: rgb(59, 59, 59); text-decoration: none;"
+>www.dell.de</a>            </font>=09=09=09
+                                               </td>
+                                           </tr>
+                                           <tr>
+                                               <td valign=3D"top" align=3D"=
+left" bgcolor=3D"#ffffff"><font face=3D"Verdana, Arial, Helvetica, sans-ser=
+if" size=3D"0" color=3D"#aaaaaa">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20
+
+
+<br>
+
+Angebot g&uuml;ltig bis zum 20.10.10 - nur auf ausgew&auml;hlte Systeme.=20
+<br>
+<br>
+
+Ausgew&auml;hlte Systeme stehen innerhalb von 48 Stunden nach dem Datum der=
+ Auftragsbest&auml;tigung zum Versand zur Verf&uuml;gung. Die Liefertermine=
+ k&ouml;nnen jedoch nicht garantiert werden, und dieses Angebot ist abh&aum=
+l;ngig von der Verf&uuml;gbarkeit.=20
+<br>
+<br>
+
+<sup style=3D"font-family: Arial,Helvetica,sans-serif; font-size: 10px;">1)=
+</sup> Angebot gilt f&uuml;r Studio, Inspiron - und XPS-Systeme ab 799 &eur=
+o; pro System. Angebot g&uuml;ltig bis 20.10.10. F&uuml;r maximal 5 Systeme=
+ pro Kunde via Online-Bestellung, gilt nicht in Kombination mit anderen Gut=
+scheincodes. Der Rabatt gilt nur bei Online-Bestellungen.=20
+
+<br>
+<br>
+
+Alle Produkte, die zu diesem Angebot geh&ouml;ren, k&ouml;nnen separat erwo=
+rben werden. Die Preise f&uuml;r separat erworbene Angebote finden Sie unte=
+r  <a
+ href=3D"http://click.euro.dell.com/r/CP16GW/1Z17L/40X2WO1/XGTK84/HDS5MM/KE=
+/h?a1=3D146651896&a2=3DMTk5MDM2MA=3D=3D-ODA4MjI0NzY=3D-MzM4MDY3Njg=3D" targ=
+et=3D"_blank" style=3D"font-family: Arial,Helvetica,sans-serif; font-size: =
+10px; color: rgb(0, 0, 0); text-decoration: none;"
+>www.dell.de/sparpotenzial</a>=20
+<br>
+<br>
+
+** Barzahlungspreis entspricht dem Nettodarlehensbetrag (ohne Versandkosten=
+). Der effekt. Jahreszins von 10,9% entspricht einem gebundenen Sollzins vo=
+n 10.4% p.a.. Bonit&auml;t vorausgesetzt. Partner ist die Santander Consume=
+r Bank. Die Angaben stellen zugleich das 2/3 Beispiel gem&auml;&szlig; =C2=
+=A76a Abs. 3 PAngV dar.
+<br>
+<br>
+
+*** Das Finanzierungsangebot gilt nur f&uuml;r ausgew&auml;hlte Systeme : S=
+tudio, Studio XPS, Alienware und TV`s. Ein Angebot der Santander Consumer B=
+ank AG M&ouml;nchengladbach, unserer Partnerbank. Nur f&uuml;r Personen ab =
+18 Jahre mit Wohnsitz in Deutschland. Eine Anzahlung ist nicht erforderlich=
+. Bonit&auml;t vorausgesetzt. Nur f&uuml;r Angebot g&uuml;ltig bis zum 27.10.10.
+
+<br>
+<br>
+
+Microsoft, Windows, Windows Vista, Vista-Logo, Windows 7 und andere Microso=
+ft-Marken sind in den USA und anderen L&auml;ndern eingetragene Marken der =
+Microsoft Corporation.=20
+<br>
+<br>
+
+Dell GmbH, Unterschweinstiege 10, 60549 Frankfurt am Main. Gesch&auml;ftsf&=
+uuml;hrer: Mark M&ouml;bius. Eingetragen beim AG Frankfurt am Main unter HR=
+B 75453, USt.-ID: 113 541 138, WEEE-Reg.-Nr.: DE 49515708.=20
+<br>
+<br>
+
+CDs/DVDs, die mit einem DVD/RW-Laufwerk gebrannt werden, sind unter Umst&au=
+ml;nden nicht mit bestehenden Laufwerken kompatibel. Soweit nicht anders be=
+schrieben, enthalten Dell-PCs und -Laptops standardm&auml;&szlig;ig Microso=
+ft&reg; Office Starter 2010.=20
+<br>
+<br>
+
+Einige in diesem Computer enthaltene Microsoft&reg; -Softwareprodukte sind =
+m&ouml;glicherweise durch technische Ma&szlig;nahmen kopiergesch&uuml;tzt. =
+Solche Produkte k&ouml;nnen Sie nicht verwenden, wenn Sie nicht zuvor die A=
+ktivierungsma&szlig;nahmen f&uuml;r das Produkt durchf&uuml;hren. Die Aktiv=
+ierungsma&szlig;nahmen f&uuml;r das Produkt und die Microsoft-Datenschutzpo=
+litik werden w&auml;hrend der allerersten Inbetriebnahme des Produkts, bei =
+bestimmten Neuinstallationen des=20
+Softwareprodukts oder bei bestimmten Neukonfigurationen des Computers ausf&=
+uuml;hrlich beschrieben und k&ouml;nnen &uuml;ber das Internet oder per Tel=
+efon vervollst&auml;ndigt werden (dabei k&ouml;nnen Telefongeb&uuml;hren an=
+fallen).=20
+
+<br>
+<br>
+
+Rabatte k&ouml;nnen nur f&uuml;r Ger&auml;te in Anspruch genommen werden, d=
+ie zum Listenpreis erworben wurden. Das Angebot ist auf maximal 5 Systeme p=
+ro Kunde limitiert. Die Rabatte gelten nicht r&uuml;ckwirkend und k&ouml;nn=
+en nicht mit anderen Angeboten kombiniert werden. Es gelten die allgemeinen=
+ Gesch&auml;ftsbedingungen der Dell GmbH. Druckfehler, Irrt&uuml;mer und &A=
+uml;nderungen vorbehalten. Intel, das Intel Logo, Intel Inside, Intel Core,=
+ und Core Inside sind Marken der Intel=20
+Corporation in den USA und anderen L&auml;ndern. Microsoft&reg; und Windows=
+&reg; sind eingetragene Marken der Microsoft Corporation. Microsoft&reg; Wi=
+ndows&reg; Mobile&trade; ist eine Marke der Microsoft Corporation.=20
+<br>
+
+<br>
+
+Sie sind als <a
+ href=3D"" target=3D"_blank" style=3D"font-family: Arial,Helvetica,sans-ser=
+if; font-size: 10px; color: rgb(0, 0, 0); text-decoration: none;"
+>reg.wieser@crystalbyte.de</a> angemeldet. Sofern Sie diese Werbung in Zuku=
+nft nicht mehr erhalten m&ouml;chten,=20
+<a
+ href=3D"http://click.euro.dell.com/r/CP16GW/1Z17L/40X2WO1/XGTK84/BMDVV9/KE=
+/h?a1=3D146651896&a2=3DMTk5MDM2MA=3D=3D-ODA4MjI0NzY=3D-MzM4MDY3Njg=3D" targ=
+et=3D"_blank" style=3D"font-family: Arial,Helvetica,sans-serif; font-size: =
+10px; color: rgb(0, 0, 0); text-decoration: none;"
+>klicken Sie bitte hier</a>, um sich abzumelden.
+
+<br>
+<br>
+
+            </font>=09=09=09
+                                               </td>
+                                           </tr>
+                                    </table>
+                                    </td>
+                                    <td valign=3D"top" align=3D"left" bgcol=
+or=3D"#ffffff"><img style=3D"display:block" src=3D"http://img.ed4.net/dell/=
+emea/2011/Q3/WK11/Multislot/de_dhs_col_3.jpg" width=3D"14" height=3D"65"  b=
+order=3D"0"></td>
+                                    <td valign=3D"top" align=3D"left" bgcol=
+or=3D"#dc5034"><img style=3D"display:block" src=3D"http://img.ed4.net/dell/=
+emea/2011/Q3/WK11/Multislot/de_dhs_col_4.jpg" width=3D"10" height=3D"65"  b=
+order=3D"0"></td>
+                                </tr>
+                         </table>
+                    </td>
+                </tr>
+                <tr>
+                   <td valign=3D"top" align=3D"left"><img style=3D"display:=
+block" src=3D"http://img.ed4.net/dell/emea/2011/Q3/WK11/Multislot/de_dhs_le=
+gal.jpg" width=3D"748" height=3D"21"  border=3D"0"></td>
+               </tr>
+			</table>
+            </td>
+		</tr>
+=20=20=20=20=20=20=20=20
+        </table></td>
+
+</tr>
+</table>
+
+</td>
+</tr>
+</table><!-- [[CP16GW-M9NA54-1Z17L-40X2WO1-XGTK84-H-M2-20101014-1f469fdddd2=
+ccee]] --><img height=3D"1" width=3D"1" src=3D"http://click.euro.dell.com/o=
+/CP16GW/1Z17L/40X2WO1/XGTK84/AM87/52"></body></html>

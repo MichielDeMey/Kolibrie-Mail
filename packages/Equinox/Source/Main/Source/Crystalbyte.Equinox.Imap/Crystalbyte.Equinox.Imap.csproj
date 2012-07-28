@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{34D203DA-5446-43FE-A1B6-E7B6A1B0F14E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Crystalbyte.Equinox.Imap</RootNamespace>
+    <AssemblyName>Crystalbyte.Equinox.Imap</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\Docs\bs_parser\Parser.cs">
+      <Link>Processing\Advanced\Parser.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Docs\bs_parser\Scanner.cs">
+      <Link>Processing\Advanced\Scanner.cs</Link>
+    </Compile>
+    <Compile Include="AttachmentInfo.cs" />
+    <Compile Include="FailureMessages.cs" />
+    <Compile Include="ImapServerCapability.cs" />
+    <Compile Include="Linq\ImapOrderByQueryTranslator.cs" />
+    <Compile Include="MessageQueryExtensions.cs" />
+    <Compile Include="MessageFlagGroup.cs" />
+    <Compile Include="ImapAuthenticator.cs" />
+    <Compile Include="DownloadProgressChangedEventArgs.cs" />
+    <Compile Include="IFetchable.cs" />
+    <Compile Include="FetchableAttribute.cs" />
+    <Compile Include="Linq\ExpressionVisitor.cs" />
+    <Compile Include="Linq\Query.cs" />
+    <Compile Include="Linq\QueryProvider.cs" />
+    <Compile Include="Linq\SearchTranslationResult.cs" />
+    <Compile Include="Linq\TypeHelper.cs" />
+    <Compile Include="ManualSaslAuthenticationRequiredEventArgs.cs" />
+    <Compile Include="MessageInfo.cs" />
+    <Compile Include="MessageState.cs" />
+    <Compile Include="Processing\BodyStructParser.cs" />
+    <Compile Include="Processing\DynamicSectionReader.cs" />
+    <Compile Include="Processing\IntParser.cs" />
+    <Compile Include="Processing\ISectionParser.cs" />
+    <Compile Include="Processing\TextParser.cs" />
+    <Compile Include="Processing\BccHeaderReader.cs" />
+    <Compile Include="Processing\BodyStructReader.cs" />
+    <Compile Include="Processing\CcHeaderReader.cs" />
+    <Compile Include="Processing\DateHeaderReader.cs" />
+    <Compile Include="Processing\FromHeaderReader.cs" />
+    <Compile Include="Processing\ISectionReader.cs" />
+    <Compile Include="Processing\SectionHelper.cs" />
+    <Compile Include="Processing\SequenceNumberReader.cs" />
+    <Compile Include="Processing\SubjectHeaderReader.cs" />
+    <Compile Include="Linq\ResponseItem.cs" />
+    <Compile Include="Linq\HeaderSearchPair.cs" />
+    <Compile Include="Processing\EntityParser.cs" />
+    <Compile Include="Processing\HeaderCollectionParser.cs" />
+    <Compile Include="Processing\HeaderCollectionReader.cs" />
+    <Compile Include="Processing\HeaderReader.cs" />
+    <Compile Include="Processing\InternalDateReader.cs" />
+    <Compile Include="Processing\DateParser.cs" />
+    <Compile Include="Processing\FlagsReader.cs" />
+    <Compile Include="Processing\EnvelopeReader.cs" />
+    <Compile Include="Linq\ResponseCatalogue.cs" />
+    <Compile Include="Processing\SizeParser.cs" />
+    <Compile Include="Processing\FlagsParser.cs" />
+    <Compile Include="Processing\EnvelopeParser.cs" />
+    <Compile Include="Processing\ContactCollectionParser.cs" />
+    <Compile Include="Linq\ResponseProcessor.cs" />
+    <Compile Include="Commands\BlankImapCommand.cs" />
+    <Compile Include="ImapClient.cs" />
+    <Compile Include="Commands\ImapCommand.cs" />
+    <Compile Include="Linq\EnumContactExtensions.cs" />
+    <Compile Include="Linq\ExpressionCrawler.cs" />
+    <Compile Include="Linq\Evaluator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Linq\ImapFetchQueryTranslator.cs" />
+    <Compile Include="MailboxInfo.cs" />
+    <Compile Include="MailboxPermissions.cs" />
+    <Compile Include="NameAttributes.cs" />
+    <Compile Include="ImapPorts.cs" />
+    <Compile Include="Processing\TextReader.cs" />
+    <Compile Include="Processing\ToHeaderReader.cs" />
+    <Compile Include="Responses\ExpungeImapResponse.cs" />
+    <Compile Include="Responses\FetchImapResponse.cs" />
+    <Compile Include="Responses\ListImapResponse.cs" />
+    <Compile Include="Responses\ImapResponse.cs" />
+    <Compile Include="Responses\SearchImapResponse.cs" />
+    <Compile Include="Responses\SelectExamineImapResponse.cs" />
+    <Compile Include="SequenceSet.cs" />
+    <Compile Include="ImapResponseReaderExtensions.cs" />
+    <Compile Include="StoreProcedures.cs" />
+    <Compile Include="Responses\StoreImapResponse.cs" />
+    <Compile Include="Text\RegexPatterns.cs" />
+    <Compile Include="ImapResponseReader.cs" />
+    <Compile Include="SequenceIdentifier.cs" />
+    <Compile Include="Processing\SizeReader.cs" />
+    <Compile Include="StatusUpdateReceivedEventArgs.cs" />
+    <Compile Include="StringExtensions.cs" />
+    <Compile Include="Processing\StringParser.cs" />
+    <Compile Include="Text\MailboxNameEncoder.cs" />
+    <Compile Include="Linq\Nominator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Linq\Range.cs" />
+    <Compile Include="SearchCommands.cs" />
+    <Compile Include="Envelope.cs" />
+    <Compile Include="Linq\ImapMessageQueryProvider.cs" />
+    <Compile Include="Linq\ImapQueryResponseReader.cs" />
+    <Compile Include="Linq\ImapSearchQueryTranslator.cs" />
+    <Compile Include="Linq\MemberNames.cs" />
+    <Compile Include="Mailbox.cs" />
+    <Compile Include="IMessageQueryable.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Linq\SequenceSetStorage.cs" />
+    <Compile Include="Processing\UidParser.cs" />
+    <Compile Include="Processing\UidReader.cs" />
+    <Compile Include="ViewInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Crystalbyte.Equinox.Core\Crystalbyte.Equinox.Core.csproj">
+      <Project>{EA165485-7BE1-41BF-9F1F-A595C94CD87D}</Project>
+      <Name>Crystalbyte.Equinox.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Crystalbyte.Equinox.Mime\Crystalbyte.Equinox.Mime.csproj">
+      <Project>{F711C36B-0DBC-4FB0-9F54-47C09C206E8F}</Project>
+      <Name>Crystalbyte.Equinox.Mime</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy "$(TargetPath)" "$(SolutionDir)\Build\$(ConfigurationName)"</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

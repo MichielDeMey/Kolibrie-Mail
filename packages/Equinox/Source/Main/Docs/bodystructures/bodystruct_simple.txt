@@ -1,0 +1,10 @@
+(
+	"TEXT" 
+	"PLAIN" 
+	("CHARSET" "US-ASCII") 
+	NIL 
+	NIL 
+	"7BIT" 
+	2279 
+	48
+)

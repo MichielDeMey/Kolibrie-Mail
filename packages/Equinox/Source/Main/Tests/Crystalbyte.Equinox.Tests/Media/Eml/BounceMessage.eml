@@ -1,0 +1,109 @@
+﻿Return-Path: <>
+Delivery-Date: Tue, 26 Oct 2010 03:27:20 +0200
+Received: from mail.routing.net (mail.routing.net [213.160.81.20])
+	by mx.kundenserver.de (node=mxbap0) with ESMTP (Nemesis)
+	id 0LvSiJ-1OSS2l1xzv-010PTE for alexander.wieser@crystalbyte.de; Tue, 26 Oct 2010 03:27:20 +0200
+Received: by mxout1.mail.routing.net (Postfix)
+	id 3B01B1EC609; Tue, 26 Oct 2010 03:27:20 +0200 (CEST)
+Date: Tue, 26 Oct 2010 03:27:20 +0200 (CEST)
+From: MAILER-DAEMON (Mail Delivery System)
+Subject: Rueckgabe nicht zustellbarer Nachricht an Absender
+To: alexander.wieser@crystalbyte.de
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="D0F661EC5FB.1288056440/mxout1.mail.routing.net"
+Message-Id: <20101026012720.3B01B1EC609@mxout1.mail.routing.net>
+Envelope-To: alexander.wieser@crystalbyte.de
+
+This is a MIME-encapsulated message.
+
+--D0F661EC5FB.1288056440/mxout1.mail.routing.net
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+
+Dies ist eine automatisch generierte Nachricht des Postfix E-Mail-Dienstes.
+Dieser Dienst wird auf dem Server mxout1.mail.routing.net betrieben und teilt Ihnen
+folgendes mit:
+
+
+    Ihre Nachricht konnte an einen oder mehrere Empfaenger nicht zugestellt
+    werden. Ein Problem-Bericht, sowie Ihre uspruengliche Nachricht wurden an
+    das Ende dieser Nachricht angehaengt.
+
+
+Fuer weitere Hilfe kontaktieren Sie bitte den fuer Sie zustaendigen
+<postmaster>.
+
+Senden Sie dazu den an diese E-Mail angefuegten Problem-Bericht mit.
+Den Inhalt Ihrer urspruenglichen Nachricht koennen Sie - zum Schutz Ihrer
+Privatsphaere - entfernen; er ist fuer eine Fehler-Diagnose nicht zwingend
+notwendig.
+
+                   Der Postfix E-Mail-Dienst
+
+                        INTERNATIONAL VERSION
+
+This is the Postfix program at host mxout1.mail.routing.net.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to <postmaster>
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+
+<steffenm@organice.de>: host 212.202.154.187[212.202.154.187] said: 550 5.1.1
+    User unknown (in reply to RCPT TO command)
+
+--D0F661EC5FB.1288056440/mxout1.mail.routing.net
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; mxout1.mail.routing.net
+X-Postfix-Queue-ID: D0F661EC5FB
+X-Postfix-Sender: rfc822; alexander.wieser@crystalbyte.de
+Arrival-Date: Tue, 26 Oct 2010 03:26:58 +0200 (CEST)
+
+Final-Recipient: rfc822; steffenm@organice.de
+Original-Recipient: rfc822;steffenm@organice.de
+Action: failed
+Status: 5.1.1
+Remote-MTA: dns; 212.202.154.187
+Diagnostic-Code: smtp; 550 5.1.1 User unknown
+
+--D0F661EC5FB.1288056440/mxout1.mail.routing.net
+Content-Description: Undelivered Message Headers
+Content-Type: text/rfc822-headers
+
+Return-Path: <alexander.wieser@crystalbyte.de>
+Received: from mail.routing.net ([127.0.0.1])
+	by localhost (mxout1.mail.routing.net [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id fRDx89rm1yZR for <steffenm@organice.de>;
+	Tue, 26 Oct 2010 03:26:56 +0200 (CEST)
+X-Envelope-To: steffenm@organice.de
+X-Greylist: Passed host: 212.227.126.186
+Received: from moutng.kundenserver.de (moutng.kundenserver.de [212.227.126.186])
+	by mxout1.mail.routing.net (Postfix) with ESMTP id 990CB1EC5FB
+	for <steffenm@organice.de>; Tue, 26 Oct 2010 03:26:56 +0200 (CEST)
+Received: from [192.168.178.20] (port-92-195-91-143.dynamic.qsc.de [92.195.91.143])
+	by mrelayeu.kundenserver.de (node=mrbap1) with ESMTP (Nemesis)
+	id 0LviIO-1OYEPK0QN2-017nON; Tue, 26 Oct 2010 03:26:56 +0200
+Message-ID: <4CC62E54.6060508@crystalbyte.de>
+Date: Tue, 26 Oct 2010 03:26:44 +0200
+From: Alexander Wieser <alexander.wieser@crystalbyte.de>
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-GB; rv:1.9.2.11) Gecko/20101013 Thunderbird/3.1.5
+MIME-Version: 1.0
+To: steffenm@organice.de
+Subject: Check this ;)
+Content-Type: multipart/mixed;
+ boundary="------------070400050307060203090600"
+X-Provags-ID: V02:K0:YNc3ZXhxmU5KES3I/qIuUV++/5DQo50F4yVoGtsvnQf
+ SY1puvIrGlcHCV9cCcgQHIcKUU06A96aUW2wJllwPWCuLPTl0h
+ 1Y/mDpsu64rjFkIgg9uGWAn8W9MUs5fzyqtev30GDEujPbMskO
+ 3u2BsLc2XZHantZ6ygL/nTBK0PZzic8FknExJN7SvY4NcQL0JL
+ YY72S013REijykcPOEzFX6fmnU5Hpgo2/3rRxy+t2M=
+
+--D0F661EC5FB.1288056440/mxout1.mail.routing.net--

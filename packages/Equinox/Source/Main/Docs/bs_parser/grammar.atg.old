@@ -1,0 +1,194 @@
+using System.Diagnostics;
+using System.Linq;
+using System.Collections.Generic;
+
+COMPILER IBS
+
+internal enum ParamListType
+{
+	Other,
+	BodyPart,
+	MultiPart
+}
+
+bool TrySaveToParent(Part part, out Part parent)
+{
+	if(_stack.Count == 0){
+		parent = null;
+		return false;
+	}
+	var parent_ = (MultiPart) _stack.Peek();
+	parent_.Children.Add(part);
+	parent = parent_;
+	return true;
+}
+
+void PushPart(Part part)
+{
+	if(_stack.Count == 0) {
+		Root = part;
+	}
+	_stack.Push(part);
+}
+
+public Part Root { get; set; }
+readonly Stack<Part> _stack = new Stack<Part>();
+readonly Stack<string> _paramKeyStack = new Stack<string>();
+
+// checks whether a body part is multipart or not.	
+bool IsBodyPart() {
+	var c = scanner.Peek();
+	return c.val != "(";
+}
+
+// checks whether the current body type is a nested message
+bool IsRfc822() {
+	return CurrentBodyPart.BodyType.ToLower() == "message" && CurrentBodyPart.SubType.ToLower() == "rfc822";
+}
+
+
+ParamListType CurrentListType { get; set; }
+BodyPart CurrentBodyPart { get { return (BodyPart)_stack.Peek(); }}
+MultiPart CurrentMultiPart { get { return (MultiPart)_stack.Peek(); }}
+
+IGNORECASE
+
+CHARACTERS
+	digit = '0'..'9'.
+	anyButQuote = ANY - '"'.
+	
+TOKENS
+	string = '"' {anyButQuote} '"'.	
+	number = digit {digit}.
+
+IGNORE '\t' + '\r' + '\n'
+	 
+PRODUCTIONS 
+	IBS = 
+		BodyPart
+		.
+		
+	Envelope = 
+		'('
+		Field
+		Field
+		ContactList
+		ContactList
+		ContactList
+		ContactList
+		ContactList
+		ContactList
+		Field
+		Field
+		')'
+		.
+	
+	ContactList =
+		'('
+		{'(' 
+		Field 
+		Field 
+		Field 
+		Field
+		')'}
+		')'
+		|
+		"NIL"
+		.
+		
+	ParamList = 
+		'('
+		{
+		Field							(.	if(CurrentListType != ParamListType.Other) {
+												_paramKeyStack.Push(t.val.TrimQuotes());
+											}
+										.)
+		(FieldOrParList)				(.	if(CurrentListType == ParamListType.BodyPart) {
+												var key = _paramKeyStack.Pop();
+												CurrentBodyPart.Parameters.Add(key, t.val.TrimQuotes());
+											}
+										.)
+		} 
+		')'								
+		.
+		
+	Field = 
+		"NIL"
+		| string 
+		.
+		
+	FieldOrParList = 
+		Field 
+		| ParamList
+		.
+		
+	BodyPartAppendix = 
+		IF(IsRfc822())
+		(
+		Envelope						(. CurrentBodyPart.Envelope = t.val; .)
+		BodyPart
+		number							(. CurrentBodyPart.TextLines = t.val.TrimQuotes(); .)
+		)
+		| {FieldOrParList}
+		.
+		
+	MultiPart =
+		'('								(. Console.WriteLine("Entering multipart ..."); 
+										var part = new MultiPart(); 
+										Part parent;
+										var success = TrySaveToParent(part, out parent);
+										if(success) {
+											part.Parent = parent;
+										}
+										PushPart(part);
+										.)
+		BodyPart									
+		BodyPart
+		{BodyPart}
+		Field							(. CurrentMultiPart.Type = t.val.TrimQuotes(); .)
+		
+		//extension fields
+		{
+										(. CurrentListType = ParamListType.MultiPart; .)
+		FieldOrParList					(. CurrentMultiPart.Extensions.Add(t.val.TrimQuotes()); .)
+										(. CurrentListType = ParamListType.Other; .)
+		}
+		')'								(. Console.WriteLine("Leaving multipart."); 
+										_stack.Pop();
+										.)
+		.	
+		
+	BodyPart =  
+		IF (IsBodyPart())			
+		( '('							(. Console.WriteLine("Entering terminal part ..."); 
+										var part = new BodyPart(); 
+										Part parent;
+										var success = TrySaveToParent(part, out parent);
+										if(success) {
+											part.Parent = parent;
+										}
+										PushPart(part);
+										.)
+		// basic fields
+		Field							(. CurrentBodyPart.BodyType = t.val.TrimQuotes(); .)
+		Field							(. CurrentBodyPart.SubType = t.val.TrimQuotes(); CurrentListType = ParamListType.BodyPart; .)
+		ParamList						
+		Field							(. CurrentBodyPart.BodyId = t.val.TrimQuotes(); CurrentListType = ParamListType.Other; .)
+		Field							(. CurrentBodyPart.BodyDescription = t.val.TrimQuotes(); .)
+		Field							(. CurrentBodyPart.BodyEncoding = t.val.TrimQuotes(); .)
+		number							(. CurrentBodyPart.BodySize = t.val.TrimQuotes(); .)
+		
+		// type specific fields
+		{number}						(. CurrentBodyPart.TextLines = t.val.TrimQuotes(); .)
+		
+		BodyPartAppendix
+		
+		
+		')' )							(. Console.WriteLine("Leaving terminal part."); 
+										_stack.Pop();
+										.)		
+		|
+		MultiPart									
+		.
+		
+END IBS.

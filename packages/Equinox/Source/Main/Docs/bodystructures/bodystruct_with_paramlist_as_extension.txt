@@ -1,0 +1,1 @@
+(BODYSTRUCTURE (("TEXT" "plain" ("charset" "utf-8") NIL NIL "QUOTED-PRINTABLE" 3328 103 NIL ("inline" NIL) NIL NIL)("TEXT" "html" ("charset" "utf-8") NIL NIL "QUOTED-PRINTABLE" 9953 265 NIL ("inline" NIL) NIL NIL) "alternative" ("boundary" "mimepart_4b4a862db1eb4_30964e56b017662175") NIL NIL NIL) UID 414)

@@ -1,0 +1,111 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crystalbyte.Equinox.Core", "Source\Crystalbyte.Equinox.Core\Crystalbyte.Equinox.Core.csproj", "{EA165485-7BE1-41BF-9F1F-A595C94CD87D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crystalbyte.Equinox.Imap", "Source\Crystalbyte.Equinox.Imap\Crystalbyte.Equinox.Imap.csproj", "{34D203DA-5446-43FE-A1B6-E7B6A1B0F14E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crystalbyte.Equinox.Mime", "Source\Crystalbyte.Equinox.Mime\Crystalbyte.Equinox.Mime.csproj", "{F711C36B-0DBC-4FB0-9F54-47C09C206E8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crystalbyte.Equinox.DemoApp", "Source\Crystalbyte.Equinox.DemoApp\Crystalbyte.Equinox.DemoApp.csproj", "{F21E43C4-7A65-4795-9A4A-347A169B4585}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crystalbyte.Equinox.Smtp", "Source\Crystalbyte.Equinox.Smtp\Crystalbyte.Equinox.Smtp.csproj", "{1CE43D33-C232-4F22-A9C3-2FC8461A75F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crystalbyte.Equinox.Pop3", "Source\Crystalbyte.Equinox.Pop3\Crystalbyte.Equinox.Pop3.csproj", "{A9D818DE-229E-4D47-AEBB-967B3CDF522A}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs19
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Source\\Crystalbyte.Equinox.Core\\Crystalbyte.Equinox.Core.csproj
+		SccProjectName1 = Source/Crystalbyte.Equinox.Core
+		SccLocalPath1 = Source\\Crystalbyte.Equinox.Core
+		SccProjectUniqueName2 = Source\\Crystalbyte.Equinox.Imap\\Crystalbyte.Equinox.Imap.csproj
+		SccProjectName2 = Source/Crystalbyte.Equinox.Imap
+		SccLocalPath2 = Source\\Crystalbyte.Equinox.Imap
+		SccProjectUniqueName3 = Source\\Crystalbyte.Equinox.Mime\\Crystalbyte.Equinox.Mime.csproj
+		SccProjectName3 = Source/Crystalbyte.Equinox.Mime
+		SccLocalPath3 = Source\\Crystalbyte.Equinox.Mime
+		SccProjectUniqueName4 = Source\\Crystalbyte.Equinox.DemoApp\\Crystalbyte.Equinox.DemoApp.csproj
+		SccProjectName4 = Source/Crystalbyte.Equinox.DemoApp
+		SccLocalPath4 = Source\\Crystalbyte.Equinox.DemoApp
+		SccProjectUniqueName5 = Source\\Crystalbyte.Equinox.Smtp\\Crystalbyte.Equinox.Smtp.csproj
+		SccProjectName5 = Source/Crystalbyte.Equinox.Smtp
+		SccLocalPath5 = Source\\Crystalbyte.Equinox.Smtp
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA165485-7BE1-41BF-9F1F-A595C94CD87D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA165485-7BE1-41BF-9F1F-A595C94CD87D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA165485-7BE1-41BF-9F1F-A595C94CD87D}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{EA165485-7BE1-41BF-9F1F-A595C94CD87D}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{EA165485-7BE1-41BF-9F1F-A595C94CD87D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EA165485-7BE1-41BF-9F1F-A595C94CD87D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA165485-7BE1-41BF-9F1F-A595C94CD87D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA165485-7BE1-41BF-9F1F-A595C94CD87D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{EA165485-7BE1-41BF-9F1F-A595C94CD87D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{EA165485-7BE1-41BF-9F1F-A595C94CD87D}.Release|x86.ActiveCfg = Release|Any CPU
+		{34D203DA-5446-43FE-A1B6-E7B6A1B0F14E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34D203DA-5446-43FE-A1B6-E7B6A1B0F14E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34D203DA-5446-43FE-A1B6-E7B6A1B0F14E}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{34D203DA-5446-43FE-A1B6-E7B6A1B0F14E}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{34D203DA-5446-43FE-A1B6-E7B6A1B0F14E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{34D203DA-5446-43FE-A1B6-E7B6A1B0F14E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34D203DA-5446-43FE-A1B6-E7B6A1B0F14E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34D203DA-5446-43FE-A1B6-E7B6A1B0F14E}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{34D203DA-5446-43FE-A1B6-E7B6A1B0F14E}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{34D203DA-5446-43FE-A1B6-E7B6A1B0F14E}.Release|x86.ActiveCfg = Release|Any CPU
+		{F711C36B-0DBC-4FB0-9F54-47C09C206E8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F711C36B-0DBC-4FB0-9F54-47C09C206E8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F711C36B-0DBC-4FB0-9F54-47C09C206E8F}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{F711C36B-0DBC-4FB0-9F54-47C09C206E8F}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{F711C36B-0DBC-4FB0-9F54-47C09C206E8F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F711C36B-0DBC-4FB0-9F54-47C09C206E8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F711C36B-0DBC-4FB0-9F54-47C09C206E8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F711C36B-0DBC-4FB0-9F54-47C09C206E8F}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{F711C36B-0DBC-4FB0-9F54-47C09C206E8F}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{F711C36B-0DBC-4FB0-9F54-47C09C206E8F}.Release|x86.ActiveCfg = Release|Any CPU
+		{F21E43C4-7A65-4795-9A4A-347A169B4585}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{F21E43C4-7A65-4795-9A4A-347A169B4585}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{F21E43C4-7A65-4795-9A4A-347A169B4585}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{F21E43C4-7A65-4795-9A4A-347A169B4585}.Debug|x86.ActiveCfg = Debug|x86
+		{F21E43C4-7A65-4795-9A4A-347A169B4585}.Debug|x86.Build.0 = Debug|x86
+		{F21E43C4-7A65-4795-9A4A-347A169B4585}.Release|Any CPU.ActiveCfg = Release|x86
+		{F21E43C4-7A65-4795-9A4A-347A169B4585}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{F21E43C4-7A65-4795-9A4A-347A169B4585}.Release|Mixed Platforms.Build.0 = Release|x86
+		{F21E43C4-7A65-4795-9A4A-347A169B4585}.Release|x86.ActiveCfg = Release|x86
+		{F21E43C4-7A65-4795-9A4A-347A169B4585}.Release|x86.Build.0 = Release|x86
+		{1CE43D33-C232-4F22-A9C3-2FC8461A75F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CE43D33-C232-4F22-A9C3-2FC8461A75F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CE43D33-C232-4F22-A9C3-2FC8461A75F4}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{1CE43D33-C232-4F22-A9C3-2FC8461A75F4}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{1CE43D33-C232-4F22-A9C3-2FC8461A75F4}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1CE43D33-C232-4F22-A9C3-2FC8461A75F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CE43D33-C232-4F22-A9C3-2FC8461A75F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CE43D33-C232-4F22-A9C3-2FC8461A75F4}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{1CE43D33-C232-4F22-A9C3-2FC8461A75F4}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{1CE43D33-C232-4F22-A9C3-2FC8461A75F4}.Release|x86.ActiveCfg = Release|Any CPU
+		{A9D818DE-229E-4D47-AEBB-967B3CDF522A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9D818DE-229E-4D47-AEBB-967B3CDF522A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9D818DE-229E-4D47-AEBB-967B3CDF522A}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{A9D818DE-229E-4D47-AEBB-967B3CDF522A}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{A9D818DE-229E-4D47-AEBB-967B3CDF522A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A9D818DE-229E-4D47-AEBB-967B3CDF522A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9D818DE-229E-4D47-AEBB-967B3CDF522A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9D818DE-229E-4D47-AEBB-967B3CDF522A}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{A9D818DE-229E-4D47-AEBB-967B3CDF522A}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{A9D818DE-229E-4D47-AEBB-967B3CDF522A}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

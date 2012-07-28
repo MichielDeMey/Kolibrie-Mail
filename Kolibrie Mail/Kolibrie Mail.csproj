@@ -240,24 +240,24 @@
     <None Include="Raven.Studio.xap" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Equinox\Source\Main\Source\Crystalbyte.Equinox.Core\Crystalbyte.Equinox.Core.csproj">
-      <Project>{EA165485-7BE1-41BF-9F1F-A595C94CD87D}</Project>
-      <Name>Crystalbyte.Equinox.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Equinox\Source\Main\Source\Crystalbyte.Equinox.Imap\Crystalbyte.Equinox.Imap.csproj">
-      <Project>{34D203DA-5446-43FE-A1B6-E7B6A1B0F14E}</Project>
-      <Name>Crystalbyte.Equinox.Imap</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Equinox\Source\Main\Source\Crystalbyte.Equinox.Mime\Crystalbyte.Equinox.Mime.csproj">
-      <Project>{F711C36B-0DBC-4FB0-9F54-47C09C206E8F}</Project>
-      <Name>Crystalbyte.Equinox.Mime</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="hummingbird.ico" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\hummingbird-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\packages\Equinox\Source\Main\Source\Crystalbyte.Equinox.Core\Crystalbyte.Equinox.Core.csproj">
+      <Project>{EA165485-7BE1-41BF-9F1F-A595C94CD87D}</Project>
+      <Name>Crystalbyte.Equinox.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\packages\Equinox\Source\Main\Source\Crystalbyte.Equinox.Imap\Crystalbyte.Equinox.Imap.csproj">
+      <Project>{34D203DA-5446-43FE-A1B6-E7B6A1B0F14E}</Project>
+      <Name>Crystalbyte.Equinox.Imap</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\packages\Equinox\Source\Main\Source\Crystalbyte.Equinox.Mime\Crystalbyte.Equinox.Mime.csproj">
+      <Project>{F711C36B-0DBC-4FB0-9F54-47C09C206E8F}</Project>
+      <Name>Crystalbyte.Equinox.Mime</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

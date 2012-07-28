@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{79E8FE6D-1AF4-4F31-95DF-F282C70F0F69}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Crystalbyte.Equinox.Sandbox</RootNamespace>
+    <AssemblyName>Crystalbyte.Equinox.Sandbox</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Crystalbyte.Equinox.Core\Crystalbyte.Equinox.Core.csproj">
+      <Project>{EA165485-7BE1-41BF-9F1F-A595C94CD87D}</Project>
+      <Name>Crystalbyte.Equinox.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Crystalbyte.Equinox.Imap\Crystalbyte.Equinox.Imap.csproj">
+      <Project>{34D203DA-5446-43FE-A1B6-E7B6A1B0F14E}</Project>
+      <Name>Crystalbyte.Equinox.Imap</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Crystalbyte.Equinox.Mime\Crystalbyte.Equinox.Mime.csproj">
+      <Project>{F711C36B-0DBC-4FB0-9F54-47C09C206E8F}</Project>
+      <Name>Crystalbyte.Equinox.Mime</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Crystalbyte.Equinox.Pop3\Crystalbyte.Equinox.Pop3.csproj">
+      <Project>{A9D818DE-229E-4D47-AEBB-967B3CDF522A}</Project>
+      <Name>Crystalbyte.Equinox.Pop3</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Crystalbyte.Equinox.Smtp\Crystalbyte.Equinox.Smtp.csproj">
+      <Project>{1CE43D33-C232-4F22-A9C3-2FC8461A75F4}</Project>
+      <Name>Crystalbyte.Equinox.Smtp</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="wall1-1920x1200.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="abrash.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

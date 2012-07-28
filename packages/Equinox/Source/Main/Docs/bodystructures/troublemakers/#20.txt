@@ -1,0 +1,102 @@
+(
+	(
+		"TEXT" 
+		"plain" 
+		(
+			"charset" 
+			"ISO-8859-15" 
+			"format" 
+			"flowed"
+		) 
+		NIL 
+		NIL 
+		"7BIT" 
+		15 
+		1 
+		NIL 
+		NIL 
+		NIL 
+		NIL
+	)
+	(
+		"MESSAGE" 
+		"RFC822" 
+		(
+			"name" 
+			"C89482300 Re: AJAX =?ISO-8859-15?Q?Unterst=FCtzung=2Eeml?="
+		) 
+		NIL 
+		NIL 
+		"7BIT" 
+		2719 
+		(
+			"Wed, 16 Jan 2008 07:52:06 +0100 (CET)" 
+			"=?ISO-8859-15?Q?C89482300_Re:_AJAX_Unterst=FCtzung?=" 
+			(
+				("" NIL "mseditionsupport" "hosting.1und1.de")
+			) 
+			(
+				("" NIL "mseditionsupport" "hosting.1und1.de")
+			) 
+			(
+				("" NIL "mseditionsupport" "hosting.1und1.de")
+			) 
+			(
+				("" NIL "alexander.wieser" "crystalbyte.de")
+			) 
+			NIL 
+			NIL 
+			NIL 
+			"<33093265.2887931200466385027.JavaMail.nobody@nosuchhost.nosuchdomain.com>"
+		) 
+		(
+			(
+				"TEXT" 
+				"plain" 
+				(
+					"charset" "ISO-8859-15"
+				) 
+				NIL 
+				NIL 
+				"QUOTED-PRINTABLE" 
+				1376 
+				53 
+				NIL 
+				NIL 
+				NIL 
+				NIL
+			) 
+			"mixed" 
+			(
+				"boundary" 
+				"----=_Part_351455_10685003.1200466385027"
+			) 
+			NIL 
+			NIL 
+			NIL
+		) 
+		82 
+		NIL 
+		(
+			"inline" 
+			(
+				"filename*0*" 
+				"ISO-8859-15''%43%38%39%34%38%32%33%30%30%20%52%65%3A%20%41%4A" 
+				"filename*1*" 
+				"%41%58%20%55%6E%74%65%72%73%74%FC%74%7A%75%6E%67%2E%65%6D%6C"
+			)
+		) 
+		NIL 
+		NIL
+	) 
+	"mixed" 
+	(
+		"boundary" 
+		"------------060400050000030805030404"
+	) 
+	NIL 
+	NIL 
+	NIL
+)
+
+(("TEXT" "plain" ("charset" "ISO-8859-15" "format" "flowed") NIL NIL "7BIT" 15 1 NIL NIL NIL NIL)("MESSAGE" "RFC822" ("name" "C89482300 Re: AJAX =?ISO-8859-15?Q?Unterst=FCtzung=2Eeml?=") NIL NIL "7BIT" 2719 ("Wed, 16 Jan 2008 07:52:06 +0100 (CET)" "=?ISO-8859-15?Q?C89482300_Re:_AJAX_Unterst=FCtzung?=" (("" NIL "mseditionsupport" "hosting.1und1.de")) (("" NIL "mseditionsupport" "hosting.1und1.de")) (("" NIL "mseditionsupport" "hosting.1und1.de")) (("" NIL "alexander.wieser" "crystalbyte.de")) NIL NIL NIL "<33093265.2887931200466385027.JavaMail.nobody@nosuchhost.nosuchdomain.com>") (("TEXT" "plain" ("charset" "ISO-8859-15") NIL NIL "QUOTED-PRINTABLE" 1376 53 NIL NIL NIL NIL) "mixed" ("boundary" "----=_Part_351455_10685003.1200466385027") NIL NIL NIL) 82 NIL ("inline" ("filename*0*" "ISO-8859-15''%43%38%39%34%38%32%33%30%30%20%52%65%3A%20%41%4A" "filename*1*" "%41%58%20%55%6E%74%65%72%73%74%FC%74%7A%75%6E%67%2E%65%6D%6C")) NIL NIL) "mixed" ("boundary" "------------060400050000030805030404") NIL NIL NIL)

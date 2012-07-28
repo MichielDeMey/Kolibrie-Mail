@@ -1,0 +1,21 @@
+﻿Return-Path: <webmaster@sap.com>
+Delivery-Date: Tue, 04 Mar 2008 16:39:38 +0100
+Received-SPF: pass (mxeu5: domain of sap.com designates 155.56.68.171 as permitted sender) client-ip=155.56.68.171; envelope-from=webmaster@sap.com; helo=smtpde01.sap-ag.de;
+Received: from smtpde01.sap-ag.de (smtpde01.sap-ag.de [155.56.68.171])
+	by mx.kundenserver.de (node=mxeu5) with ESMTP (Nemesis)
+	id 0MKqpg-1JWZEv2Jr0-0001AA for alias@domain.de; Tue, 04 Mar 2008 16:39:37 +0100
+Received: from mail.sap.corp
+	by smtpde01.sap-ag.de (26) with ESMTP id m24FdOWD021052
+	for <alias@domain.de>; Tue, 4 Mar 2008 16:39:24 +0100 (MET)
+Message-Id: <200803041539.m24FdGL15383@dmzserv1.sap-ag.de>
+MIME-Version: 1.0
+From: webmaster@sap.com
+To: "Example Name" <alias@domain.de>
+Date: 4 Mar 2008 16:39:16 +0100
+Subject: Registration Confirmed: SAP.com Membership
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: base64
+X-Scanner: Virus Scanner virwal05
+X-SAP: out
+Envelope-To: alias@domain.de
+

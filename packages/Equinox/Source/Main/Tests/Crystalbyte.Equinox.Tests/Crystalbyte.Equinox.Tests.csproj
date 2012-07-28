@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{67B33113-B463-4001-B94C-43F409039326}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Crystalbyte.Equinox.Tests</RootNamespace>
+    <AssemblyName>Crystalbyte.Equinox.Tests</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="IQToolkit">
+      <HintPath>..\..\Externals\IQToolkit\IQToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <CodeAnalysisDependentAssemblyPaths Condition=" '$(VS100COMNTOOLS)' != '' " Include="$(VS100COMNTOOLS)..\IDE\PrivateAssemblies">
+      <Visible>False</Visible>
+    </CodeAnalysisDependentAssemblyPaths>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CaseInsensitiveStringDictionaryTest.cs" />
+    <Compile Include="Context.cs" />
+    <Compile Include="DateTimeExtensions.cs" />
+    <Compile Include="DateTimeExtensionsTest.cs" />
+    <Compile Include="EntityExtensionsTest.cs" />
+    <Compile Include="EnvelopeParserTest.cs" />
+    <Compile Include="ExpressionCrawlerTest.cs" />
+    <Compile Include="ImapFetchQueryTranslatorTest.cs" />
+    <Compile Include="ImapMessageQueryProviderTest.cs" />
+    <Compile Include="ImapSearchQueryTranslatorTest.cs" />
+    <Compile Include="Pop3ClientTest.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegexPatternsTest.cs" />
+    <Compile Include="ImapClientTest.cs" />
+    <Compile Include="SampleContainer.cs" />
+    <Compile Include="SaslMechanicsTest.cs" />
+    <Compile Include="SmtpClientTest.cs" />
+    <Compile Include="StringWriterExtensionsTest.cs" />
+    <Compile Include="SubContainer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Media\Text\QuotedPrintable\Content\Content2.txt" />
+    <EmbeddedResource Include="Media\Text\UTF8\Content\Content2.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Media\Text\QuotedPrintable\Content\Content1.txt" />
+    <EmbeddedResource Include="Media\Text\UTF8\Content\Content1.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Media\Files\Hydrangeas.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Media\Eml\TestMail.eml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Media\Eml\TestSpam.eml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Media\Eml\HeaderOnly.eml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Media\Eml\BounceMessage.eml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Media\Eml\RandomMessage.eml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Media\Eml\MalformedMessage.eml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Media\Eml\RandomMessage2.eml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Support\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Source\Crystalbyte.Equinox.Core\Crystalbyte.Equinox.Core.csproj">
+      <Project>{EA165485-7BE1-41BF-9F1F-A595C94CD87D}</Project>
+      <Name>Crystalbyte.Equinox.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Source\Crystalbyte.Equinox.Imap\Crystalbyte.Equinox.Imap.csproj">
+      <Project>{34D203DA-5446-43FE-A1B6-E7B6A1B0F14E}</Project>
+      <Name>Crystalbyte.Equinox.Imap</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Source\Crystalbyte.Equinox.Mime\Crystalbyte.Equinox.Mime.csproj">
+      <Project>{F711C36B-0DBC-4FB0-9F54-47C09C206E8F}</Project>
+      <Name>Crystalbyte.Equinox.Mime</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Source\Crystalbyte.Equinox.Pop3\Crystalbyte.Equinox.Pop3.csproj">
+      <Project>{A9D818DE-229E-4D47-AEBB-967B3CDF522A}</Project>
+      <Name>Crystalbyte.Equinox.Pop3</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Source\Crystalbyte.Equinox.Smtp\Crystalbyte.Equinox.Smtp.csproj">
+      <Project>{1CE43D33-C232-4F22-A9C3-2FC8461A75F4}</Project>
+      <Name>Crystalbyte.Equinox.Smtp</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Shadow Include="Test References\Crystalbyte.Equinox.Mime.accessor" />
+  </ItemGroup>
+  <ItemGroup>
+    <Shadow Include="Test References\Crystalbyte.Equinox.Core.accessor" />
+  </ItemGroup>
+  <ItemGroup>
+    <Shadow Include="Test References\Crystalbyte.Equinox.Imap.accessor" />
+  </ItemGroup>
+  <ItemGroup>
+    <Shadow Include="Test References\Crystalbyte.Equinox.Pop3.accessor" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Certificates\equinox.cer">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

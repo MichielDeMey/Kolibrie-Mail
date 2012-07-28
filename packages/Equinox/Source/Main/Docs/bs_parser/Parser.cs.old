@@ -1,0 +1,418 @@
+using System.Diagnostics;
+using System.Linq;
+using System.Collections.Generic;
+
+
+
+using System;
+
+
+
+namespace Crystalbyte.Equinox.Imap.Processing.Advanced
+{
+
+internal static class StringExtensions
+{
+	public static string TrimQuotes(this string input)
+	{
+		return input.Trim('\"');
+	}
+}
+
+internal abstract class Part
+{
+	protected  Part()
+	{
+		Children = new List<Part>();
+	}
+	
+	public IList<Part> Children { get; private set; }
+	public Part Parent { get; set; }
+}
+
+internal sealed class BodyPart : Part
+{
+	public BodyPart()
+	{
+		Parameters = new Dictionary<string, string>();
+		Extensions = new List<string>();
+		EnvelopeBounds = new int[2];
+	}
+	
+	public string BodyType { get; set; }
+	public string SubType { get; set; }
+	public IDictionary<string, string> Parameters { get; private set; }
+	public string BodyId { get; set; }
+	public string BodyDescription { get; set; }
+	public string BodyEncoding { get; set; }
+	public string BodySize { get; set; }
+	public string TextLines { get; set; }
+	public int[] EnvelopeBounds { get; set; }
+	public IList<string> Extensions { get; private set;}
+}
+
+internal sealed class MultiPart : Part
+{
+	public MultiPart()
+	{
+		Extensions = new List<string>();
+	}
+	
+	
+	public string Type { get; set; }
+	public IList<string> Extensions { get; private set;}
+}
+
+internal class Parser {
+	public const int _EOF = 0;
+	public const int _string = 1;
+	public const int _number = 2;
+	public const int maxT = 6;
+
+	const bool T = true;
+	const bool x = false;
+	const int minErrDist = 2;
+	
+	public Scanner scanner;
+	public Errors  errors;
+
+	public Token t;    // last recognized token
+	public Token la;   // lookahead token
+	int errDist = minErrDist;
+
+internal enum ParamListType
+{
+	Other,
+	BodyPart,
+	MultiPart
+}
+
+bool TrySaveToParent(Part part, out Part parent)
+{
+	if(_stack.Count == 0){
+		parent = null;
+		return false;
+	}
+	var parent_ = _stack.Peek();
+	parent_.Children.Add(part);
+	parent = parent_;
+	return true;
+}
+
+void PushPart(Part part)
+{
+	if(_stack.Count == 0) {
+		Root = part;
+	}
+	_stack.Push(part);
+}
+
+public Part Root { get; set; }
+readonly Stack<Part> _stack = new Stack<Part>();
+readonly Stack<string> _paramKeyStack = new Stack<string>();
+string _envelopeString = string.Empty;
+
+// checks whether a body part is multipart or not.	
+bool IsBodyPart() {
+	var c = scanner.Peek();
+	return c.val != "(";
+}
+
+// checks whether the current body type is a nested message
+bool IsRfc822() {
+	return CurrentBodyPart.BodyType.ToLower() == "message" && CurrentBodyPart.SubType.ToLower() == "rfc822";
+}
+
+
+ParamListType CurrentListType { get; set; }
+BodyPart CurrentBodyPart { get { return (BodyPart)_stack.Peek(); }}
+MultiPart CurrentMultiPart { get { return (MultiPart)_stack.Peek(); }}
+
+
+
+	public Parser(Scanner scanner) {
+		this.scanner = scanner;
+		errors = new Errors();
+	}
+
+	void SynErr (int n) {
+		if (errDist >= minErrDist) errors.SynErr(la.line, la.col, n);
+		errDist = 0;
+	}
+
+	public void SemErr (string msg) {
+		if (errDist >= minErrDist) errors.SemErr(t.line, t.col, msg);
+		errDist = 0;
+	}
+	
+	void Get () {
+		for (;;) {
+			t = la;
+			la = scanner.Scan();
+			if (la.kind <= maxT) { ++errDist; break; }
+
+			la = t;
+		}
+	}
+	
+	void Expect (int n) {
+		if (la.kind==n) Get(); else { SynErr(n); }
+	}
+	
+	bool StartOf (int s) {
+		return set[s, la.kind];
+	}
+	
+	void ExpectWeak (int n, int follow) {
+		if (la.kind == n) Get();
+		else {
+			SynErr(n);
+			while (!StartOf(follow)) Get();
+		}
+	}
+
+
+	bool WeakSeparator(int n, int syFol, int repFol) {
+		int kind = la.kind;
+		if (kind == n) {Get(); return true;}
+		else if (StartOf(repFol)) {return false;}
+		else {
+			SynErr(n);
+			while (!(set[syFol, kind] || set[repFol, kind] || set[0, kind])) {
+				Get();
+				kind = la.kind;
+			}
+			return StartOf(syFol);
+		}
+	}
+
+	
+	void IBS() {
+		BodyPart();
+	}
+
+	void BodyPart() {
+		if (IsBodyPart()) {
+			Expect(3);
+			Console.WriteLine("Entering terminal part ..."); 
+			var part = new BodyPart(); 
+			Part parent;
+			var success = TrySaveToParent(part, out parent);
+			if(success) {
+				part.Parent = parent;
+			}
+			PushPart(part);
+			
+			Field();
+			CurrentBodyPart.BodyType = t.val.TrimQuotes(); 
+			Field();
+			CurrentBodyPart.SubType = t.val.TrimQuotes(); CurrentListType = ParamListType.BodyPart; 
+			ParamList();
+			Field();
+			CurrentBodyPart.BodyId = t.val.TrimQuotes(); CurrentListType = ParamListType.Other; 
+			Field();
+			CurrentBodyPart.BodyDescription = t.val.TrimQuotes(); 
+			Field();
+			CurrentBodyPart.BodyEncoding = t.val.TrimQuotes(); 
+			Expect(2);
+			CurrentBodyPart.BodySize = t.val.TrimQuotes(); 
+			while (la.kind == 2) {
+				Get();
+			}
+			CurrentBodyPart.TextLines = t.val.TrimQuotes(); 
+			BodyPartAppendix();
+			Expect(4);
+			Console.WriteLine("Leaving terminal part."); 
+			_stack.Pop();
+			
+		} else if (la.kind == 3) {
+			MultiPart();
+		} else SynErr(7);
+	}
+
+	void Envelope() {
+		Expect(3);
+		CurrentBodyPart.Envelope[0] = t.charPos; 
+		Field();
+		Field();
+		ContactList();
+		ContactList();
+		ContactList();
+		ContactList();
+		ContactList();
+		ContactList();
+		Field();
+		Field();
+		Expect(4);
+		CurrentBodyPart.Envelope[1] = t.charPos; 
+	}
+
+	void Field() {
+		if (la.kind == 5) {
+			Get();
+		} else if (la.kind == 1) {
+			Get();
+		} else SynErr(8);
+	}
+
+	void ContactList() {
+		if (la.kind == 3) {
+			Get();
+			while (la.kind == 3) {
+				Get();
+				Field();
+				Field();
+				Field();
+				Field();
+				Expect(4);
+			}
+			Expect(4);
+		} else if (la.kind == 5) {
+			Get();
+		} else SynErr(9);
+	}
+
+	void ParamList() {
+		Expect(3);
+		while (la.kind == 1 || la.kind == 5) {
+			Field();
+			if(CurrentListType != ParamListType.Other) {
+			_paramKeyStack.Push(t.val.TrimQuotes());
+			}
+			
+			FieldOrParList();
+			if(CurrentListType == ParamListType.BodyPart) {
+			var key = _paramKeyStack.Pop();
+			CurrentBodyPart.Parameters.Add(key, t.val.TrimQuotes());
+			}
+			
+		}
+		Expect(4);
+	}
+
+	void FieldOrParList() {
+		if (la.kind == 1 || la.kind == 5) {
+			Field();
+		} else if (la.kind == 3) {
+			ParamList();
+		} else SynErr(10);
+	}
+
+	void BodyPartAppendix() {
+		if (IsRfc822()) {
+			Envelope();
+			BodyPart();
+			Expect(2);
+			CurrentBodyPart.TextLines = t.val.TrimQuotes(); 
+			while (la.kind == 1 || la.kind == 3 || la.kind == 5) {
+				CurrentListType = ParamListType.BodyPart; 
+				FieldOrParList();
+				CurrentBodyPart.Extensions.Add(t.val.TrimQuotes()); 
+				CurrentListType = ParamListType.Other; 
+			}
+		} else if (StartOf(1)) {
+			while (la.kind == 1 || la.kind == 3 || la.kind == 5) {
+				FieldOrParList();
+			}
+		} else SynErr(11);
+	}
+
+	void MultiPart() {
+		Expect(3);
+		Console.WriteLine("Entering multipart ..."); 
+		var part = new MultiPart(); 
+		Part parent;
+		var success = TrySaveToParent(part, out parent);
+		if(success) {
+			part.Parent = parent;
+		}
+		PushPart(part);
+		
+		BodyPart();
+		while (la.kind == 3) {
+			BodyPart();
+		}
+		Field();
+		CurrentMultiPart.Type = t.val.TrimQuotes(); 
+		while (la.kind == 1 || la.kind == 3 || la.kind == 5) {
+			CurrentListType = ParamListType.MultiPart; 
+			FieldOrParList();
+			CurrentMultiPart.Extensions.Add(t.val.TrimQuotes()); 
+			CurrentListType = ParamListType.Other; 
+		}
+		Expect(4);
+		Console.WriteLine("Leaving multipart."); 
+		_stack.Pop();
+		
+	}
+
+
+
+	public void Parse() {
+		la = new Token();
+		la.val = "";		
+		Get();
+		IBS();
+		Expect(0);
+
+	}
+	
+	static readonly bool[,] set = {
+		{T,x,x,x, x,x,x,x},
+		{x,T,x,T, T,T,x,x}
+
+	};
+} // end Parser
+
+
+class Errors {
+	public int count = 0;                                    // number of errors detected
+	public System.IO.TextWriter errorStream = Console.Out;   // error messages go to this stream
+	public string errMsgFormat = "-- line {0} col {1}: {2}"; // 0=line, 1=column, 2=text
+
+	public virtual void SynErr (int line, int col, int n) {
+		string s;
+		switch (n) {
+			case 0: s = "EOF expected"; break;
+			case 1: s = "string expected"; break;
+			case 2: s = "number expected"; break;
+			case 3: s = "\"(\" expected"; break;
+			case 4: s = "\")\" expected"; break;
+			case 5: s = "\"nil\" expected"; break;
+			case 6: s = "??? expected"; break;
+			case 7: s = "invalid BodyPart"; break;
+			case 8: s = "invalid Field"; break;
+			case 9: s = "invalid ContactList"; break;
+			case 10: s = "invalid FieldOrParList"; break;
+			case 11: s = "invalid BodyPartAppendix"; break;
+
+			default: s = "error " + n; break;
+		}
+		errorStream.WriteLine(errMsgFormat, line, col, s);
+		count++;
+	}
+
+	public virtual void SemErr (int line, int col, string s) {
+		errorStream.WriteLine(errMsgFormat, line, col, s);
+		count++;
+	}
+	
+	public virtual void SemErr (string s) {
+		errorStream.WriteLine(s);
+		count++;
+	}
+	
+	public virtual void Warning (int line, int col, string s) {
+		errorStream.WriteLine(errMsgFormat, line, col, s);
+	}
+	
+	public virtual void Warning(string s) {
+		errorStream.WriteLine(s);
+	}
+} // Errors
+
+
+internal class FatalError: Exception {
+	public FatalError(string m): base(m) {}
+}
+}

@@ -1,0 +1,60 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="4716CF1D-309D-47B8-809D-9B80F526688D/f:Account.cs" caret="0" fromTop="0" />
+      <File id="4716CF1D-309D-47B8-809D-9B80F526688D/f:Program.cs" caret="0" fromTop="0" />
+      <File id="4716CF1D-309D-47B8-809D-9B80F526688D/d:Dialogs/f:AccountConfigurationDialog.cs" caret="0" fromTop="0" />
+      <File id="67B33113-B463-4001-B94C-43F409039326/f:DateTimeExtensionsTest.cs" caret="4764" fromTop="10" />
+      <File id="F21E43C4-7A65-4795-9A4A-347A169B4585/f:GmailAuthenticator.cs" caret="5330" fromTop="7" />
+      <File id="F21E43C4-7A65-4795-9A4A-347A169B4585/f:Account.cs" caret="3293" fromTop="14" />
+      <File id="4716CF1D-309D-47B8-809D-9B80F526688D/d:Forms/f:ApplicationForm.cs" caret="3344" fromTop="17" />
+      <File id="F21E43C4-7A65-4795-9A4A-347A169B4585/f:OAuthVerificationForm.cs" caret="3517" fromTop="22" />
+      <File id="F21E43C4-7A65-4795-9A4A-347A169B4585/f:ControlExtensions.cs" caret="0" fromTop="0" />
+      <File id="F21E43C4-7A65-4795-9A4A-347A169B4585/f:Program.cs" caret="0" fromTop="0" />
+      <File id="F21E43C4-7A65-4795-9A4A-347A169B4585/f:AccountStateObject.cs" caret="0" fromTop="0" />
+      <File id="F21E43C4-7A65-4795-9A4A-347A169B4585/f:app.config" caret="0" fromTop="0" />
+      <File id="F21E43C4-7A65-4795-9A4A-347A169B4585/f:AccountCreationForm.cs" caret="4119" fromTop="33" />
+      <File id="34D203DA-5446-43FE-A1B6-E7B6A1B0F14E/f:ImapClient.cs" caret="33998" fromTop="24" />
+      <File id="F21E43C4-7A65-4795-9A4A-347A169B4585/f:MyMessage.cs" caret="3761" fromTop="30" />
+      <File id="F21E43C4-7A65-4795-9A4A-347A169B4585/f:ApplicationForm.Designer.cs" caret="5472" fromTop="20" />
+      <File id="F21E43C4-7A65-4795-9A4A-347A169B4585/f:Mailbox.cs" caret="3264" fromTop="16" />
+      <File id="F21E43C4-7A65-4795-9A4A-347A169B4585/f:ApplicationForm.cs" caret="12469" fromTop="27" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="4716CF1D-309D-47B8-809D-9B80F526688D/d:Forms/f:ApplicationForm.cs" caret="11575" fromTop="14" />
+      <File id="4716CF1D-309D-47B8-809D-9B80F526688D/d:Dialogs/f:AccountConfigurationDialog.cs" caret="3245" fromTop="11" />
+      <File id="F21E43C4-7A65-4795-9A4A-347A169B4585/f:MyMessage.cs" caret="0" fromTop="0" />
+      <File id="F21E43C4-7A65-4795-9A4A-347A169B4585/f:ApplicationForm.cs" caret="7454" fromTop="34" />
+      <File id="F21E43C4-7A65-4795-9A4A-347A169B4585/f:ApplicationForm.cs" caret="7263" fromTop="27" />
+      <File id="F21E43C4-7A65-4795-9A4A-347A169B4585/f:ApplicationForm.cs" caret="7138" fromTop="23" />
+      <File id="F21E43C4-7A65-4795-9A4A-347A169B4585/f:ApplicationForm.cs" caret="15192" fromTop="0" />
+      <File id="F21E43C4-7A65-4795-9A4A-347A169B4585/f:AccountCreationForm.cs" caret="4129" fromTop="21" />
+      <File id="F21E43C4-7A65-4795-9A4A-347A169B4585/f:AccountCreationForm.cs" caret="3395" fromTop="21" />
+      <File id="F21E43C4-7A65-4795-9A4A-347A169B4585/f:ApplicationForm.cs" caret="17078" fromTop="17" />
+      <File id="F21E43C4-7A65-4795-9A4A-347A169B4585/f:ApplicationForm.Designer.cs" caret="5472" fromTop="20" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">True</setting>
+    </boolean>
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Qualified:@Crystalbyte.Equinox.Security.Authentication.SaslMechanics">
+      <Item value="Login" priority="26" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

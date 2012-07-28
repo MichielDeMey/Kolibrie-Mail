@@ -1,0 +1,38 @@
+COMPILER IBS
+IGNORECASE
+
+CHARACTERS
+	digit = '0'..'9'.
+	anyButQuote = ANY - '"'.
+	
+TOKENS
+	string = '"' {anyButQuote} '"'.	
+	number = digit {digit}.
+	
+PRODUCTIONS 
+	IBS = BodyStructure.
+	ParList = '(' {string string} ')'.
+	Field = string | "NIL".
+	BodyStructure = 
+		'(' 
+			BodyPart 
+			{BodyPart} 
+			Field 
+			{BodyPart {BodyPart} Field} 
+		')'.
+	BodyPart = '(' 	
+					Field
+					Field
+					ParList
+					Field
+					Field
+					Field
+					{number}
+					{Field}
+				')' | '(' 
+					BodyPart 
+					BodyPart 
+					{BodyPart} 
+				')'.
+
+END IBS.
