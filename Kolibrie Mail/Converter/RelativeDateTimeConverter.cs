@@ -31,10 +31,18 @@ namespace Kolibrie_Mail.Converter
 
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
-            var dateTime = (DateTime)value;
-            var difference = DateTime.UtcNow - dateTime.ToUniversalTime();
+            try
+            {
+                var dateTime = (DateTime)value;
+                var difference = DateTime.UtcNow - dateTime.ToUniversalTime();
 
-            return _thresholds.First(t => difference.TotalSeconds < t.Key).Value(difference);
+                return _thresholds.First(t => difference.TotalSeconds < t.Key).Value(difference);
+            }
+            catch (Exception ex)
+            {
+               App.Log.Error(ex);
+                return "N/A";
+            }
         }
 
         public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)

@@ -2,56 +2,33 @@
   <RecentFiles>
     <RecentFiles>
       <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/d:Protocols/f:gmailAuthenticator.cs" caret="2594" fromTop="55" />
-      <File id="34D203DA-5446-43FE-A1B6-E7B6A1B0F14E/f:ViewInfo.cs" caret="3172" fromTop="9" />
-      <File id="34D203DA-5446-43FE-A1B6-E7B6A1B0F14E/f:MessageInfo.cs" caret="3521" fromTop="21" />
-      <File id="34D203DA-5446-43FE-A1B6-E7B6A1B0F14E/f:IFetchable.cs" caret="2969" fromTop="4" />
-      <File id="F711C36B-0DBC-4FB0-9F54-47C09C206E8F/f:HeaderField.cs" caret="7478" fromTop="21" />
-      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/d:Views/f:AccountCreation.xaml" caret="1256" fromTop="11" />
-      <File id="34D203DA-5446-43FE-A1B6-E7B6A1B0F14E/d:Processing/f:DynamicSectionReader.cs" caret="4847" fromTop="29" />
       <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/d:Converter/f:MessageInfoConverter.cs" caret="1014" fromTop="28" />
-      <File id="EA165485-7BE1-41BF-9F1F-A595C94CD87D/d:Security/f:SecureClient.cs" caret="6582" fromTop="21" />
-      <File id="EA165485-7BE1-41BF-9F1F-A595C94CD87D/f:EmailAddress.cs" caret="3677" fromTop="28" />
       <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/d:Controller/f:ImapController.cs" caret="0" fromTop="0" />
       <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/d:Controller/f:MailController.cs" caret="187" fromTop="7" />
       <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/d:Protocols/f:Imap.cs" caret="0" fromTop="0" />
       <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/d:Controller/f:AccountController.cs" caret="932" fromTop="23" />
-      <File id="34D203DA-5446-43FE-A1B6-E7B6A1B0F14E/d:Linq/f:ImapFetchQueryTranslator.cs" caret="8108" fromTop="19" />
       <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/f:app.config" caret="721" fromTop="0" />
-      <File id="34D203DA-5446-43FE-A1B6-E7B6A1B0F14E/f:IMessageQueryable.cs" caret="5536" fromTop="46" />
-      <File id="EA165485-7BE1-41BF-9F1F-A595C94CD87D/f:EmailContact.cs" caret="3210" fromTop="11" />
-      <File id="34D203DA-5446-43FE-A1B6-E7B6A1B0F14E/f:Envelope.cs" caret="3196" fromTop="13" />
-      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/d:Converter/f:RelativeDateTimeConverter.cs" caret="357" fromTop="4" />
       <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/f:App.xaml.cs" caret="804" fromTop="24" />
       <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/d:Model/f:MessageContainer.cs" caret="721" fromTop="15" />
-      <File id="34D203DA-5446-43FE-A1B6-E7B6A1B0F14E/d:Linq/f:ImapQueryResponseReader.cs" caret="5683" fromTop="29" />
-      <File id="34D203DA-5446-43FE-A1B6-E7B6A1B0F14E/d:Linq/f:ImapMessageQueryProvider.cs" caret="5657" fromTop="28" />
-      <File id="34D203DA-5446-43FE-A1B6-E7B6A1B0F14E/d:Linq/f:Query.cs" caret="4699" fromTop="21" />
-      <File id="34D203DA-5446-43FE-A1B6-E7B6A1B0F14E/d:Linq/f:QueryProvider.cs" caret="4103" fromTop="21" />
-      <File id="34D203DA-5446-43FE-A1B6-E7B6A1B0F14E/f:ImapClient.cs" caret="45263" fromTop="20" />
       <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/f:MainWindow.xaml" caret="11838" fromTop="10" />
-      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/f:MainWindow.xaml.cs" caret="16810" fromTop="11" />
+      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/d:Views/f:AccountCreation.xaml" caret="1356" fromTop="9" />
+      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/d:Converter/f:RelativeDateTimeConverter.cs" caret="1838" fromTop="33" />
+      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/f:MainWindow.xaml.cs" caret="12679" fromTop="30" />
     </RecentFiles>
     <RecentEdits>
-      <File id="34D203DA-5446-43FE-A1B6-E7B6A1B0F14E/f:ImapClient.cs" caret="43902" fromTop="15" />
-      <File id="34D203DA-5446-43FE-A1B6-E7B6A1B0F14E/f:ImapClient.cs" caret="44852" fromTop="35" />
-      <File id="34D203DA-5446-43FE-A1B6-E7B6A1B0F14E/f:ImapClient.cs" caret="45776" fromTop="34" />
-      <File id="34D203DA-5446-43FE-A1B6-E7B6A1B0F14E/f:ImapClient.cs" caret="46708" fromTop="40" />
-      <File id="34D203DA-5446-43FE-A1B6-E7B6A1B0F14E/f:ImapClient.cs" caret="46164" fromTop="21" />
-      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/f:MainWindow.xaml.cs" caret="18512" fromTop="30" />
-      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/f:MainWindow.xaml.cs" caret="17765" fromTop="22" />
-      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/f:MainWindow.xaml.cs" caret="18071" fromTop="32" />
-      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/f:MainWindow.xaml.cs" caret="17090" fromTop="14" />
+      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/f:MainWindow.xaml.cs" caret="18516" fromTop="30" />
+      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/f:MainWindow.xaml.cs" caret="17769" fromTop="22" />
+      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/f:MainWindow.xaml.cs" caret="18075" fromTop="32" />
+      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/f:MainWindow.xaml.cs" caret="17094" fromTop="14" />
       <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/f:MainWindow.xaml" caret="13051" fromTop="14" />
       <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/d:Model/f:MessageContainer.cs" caret="721" fromTop="15" />
       <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/d:Converter/f:RelativeDateTimeConverter.cs" caret="97" fromTop="3" />
-      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/d:Converter/f:RelativeDateTimeConverter.cs" caret="1317" fromTop="28" />
-      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/d:Converter/f:RelativeDateTimeConverter.cs" caret="1848" fromTop="32" />
+      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/d:Converter/f:RelativeDateTimeConverter.cs" caret="2037" fromTop="32" />
       <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/f:MainWindow.xaml" caret="644" fromTop="11" />
       <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/d:Converter/f:RelativeDateTimeConverter.cs" caret="219" fromTop="7" />
       <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/d:Converter/f:RelativeDateTimeConverter.cs" caret="357" fromTop="12" />
       <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/f:MainWindow.xaml" caret="11924" fromTop="28" />
       <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/f:MainWindow.xaml" caret="9890" fromTop="24" />
-      <File id="34D203DA-5446-43FE-A1B6-E7B6A1B0F14E/f:ImapClient.cs" caret="44571" fromTop="29" />
       <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/f:MainWindow.xaml" caret="9813" fromTop="20" />
       <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/f:MainWindow.xaml" caret="9194" fromTop="4" />
       <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/f:MainWindow.xaml" caret="224" fromTop="3" />
@@ -59,16 +36,21 @@
       <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/f:MainWindow.xaml" caret="10749" fromTop="16" />
       <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/f:MainWindow.xaml.cs" caret="12337" fromTop="20" />
       <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/f:MainWindow.xaml.cs" caret="3543" fromTop="15" />
-      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/f:MainWindow.xaml.cs" caret="17303" fromTop="22" />
-      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/f:MainWindow.xaml.cs" caret="16855" fromTop="12" />
-      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/f:MainWindow.xaml.cs" caret="17452" fromTop="26" />
+      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/f:MainWindow.xaml.cs" caret="17307" fromTop="22" />
+      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/f:MainWindow.xaml.cs" caret="16859" fromTop="12" />
+      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/f:MainWindow.xaml.cs" caret="17456" fromTop="26" />
+      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/d:Views/f:AccountCreation.xaml" caret="1356" fromTop="9" />
+      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/d:Converter/f:RelativeDateTimeConverter.cs" caret="1445" fromTop="26" />
+      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/d:Converter/f:RelativeDateTimeConverter.cs" caret="1838" fromTop="34" />
+      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/d:Converter/f:RelativeDateTimeConverter.cs" caret="1838" fromTop="33" />
+      <File id="AE874906-0D5F-4CAC-BDC1-484C32298C6D/f:MainWindow.xaml.cs" caret="12664" fromTop="29" />
     </RecentEdits>
   </RecentFiles>
   <CompletionStatisticsManager>
     <ItemStatistics item="CSharpCodeCompletionContext">
       <Item value="client" priority="575" />
       <Item value="Console`0" priority="607" />
-      <Item value="new" priority="1248" />
+      <Item value="new" priority="1280" />
       <Item value="ImapCommand" priority="86" />
       <Item value="ImapCommand`0" priority="31" />
       <Item value="SaslMechanics`0" priority="95" />
@@ -131,7 +113,7 @@
       <Item value="AcctCreation" priority="127" />
       <Item value="DialogResult" priority="63" />
       <Item value="false" priority="31" />
-      <Item value="return" priority="479" />
+      <Item value="return" priority="511" />
       <Item value="DataContext" priority="31" />
       <Item value="txtAccountName" priority="31" />
       <Item value="txtUsername" priority="31" />
@@ -153,8 +135,8 @@
       <Item value="String`0" priority="95" />
       <Item value="lstMailboxes" priority="287" />
       <Item value="selectedMailbox" priority="444" />
-      <Item value="try" priority="159" />
-      <Item value="App`0" priority="799" />
+      <Item value="try" priority="191" />
+      <Item value="App`0" priority="831" />
       <Item value="lstEnvelopes" priority="634" />
       <Item value="unreadMessages" priority="63" />
       <Item value="unreadMessage" priority="31" />
@@ -444,12 +426,12 @@
       <Item value="ToString`0" priority="80" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@Kolibrie_Mail.App">
-      <Item value="Log" priority="593" />
+      <Item value="Log" priority="620" />
       <Item value="DocumentStore" priority="107" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:log4net.ILog">
       <Item value="Info`0" priority="377" />
-      <Item value="Error`0" priority="107" />
+      <Item value="Error`0" priority="134" />
       <Item value="Debug`0" priority="134" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Collections.IEnumerable">

@@ -314,10 +314,10 @@ namespace Kolibrie_Mail
 
                 lstEnvelopes.Items.Insert(0, message);
 
-                if (lstEnvelopes.Items.Count > 0)
+                /*if (lstEnvelopes.Items.Count > 0)
                 {
                     lstEnvelopes.SelectedIndex = 0;
-                }
+                }*/
             }
             else
             {
